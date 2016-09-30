@@ -1,0 +1,1101 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Image",
+				"ImageEditor.SpriteGUI()"
+			],
+			[
+				"shift",
+				"shift_y"
+			],
+			[
+				"set",
+				"set_blocked"
+			],
+			[
+				"laddercaps",
+				"ladderCaps_Colliders"
+			],
+			[
+				"ladderca",
+				"ladderCaps_Colliders"
+			],
+			[
+				"buildin",
+				"BuildingColliders  (class)"
+			],
+			[
+				"parallax",
+				"parallax_level1"
+			],
+			[
+				"value",
+				"VALUE"
+			],
+			[
+				"sui",
+				"SUITSIZE"
+			],
+			[
+				"SUITSU",
+				"SUITSURF_4"
+			],
+			[
+				"SUITS",
+				"SUITSURF_3"
+			],
+			[
+				"SUT",
+				"SUITSURF_2"
+			],
+			[
+				"animation",
+				"animation	GameObject.*"
+			],
+			[
+				"setbo",
+				"SetBool"
+			],
+			[
+				"adfor",
+				"addForce	Rigidbody2D.*(force, mode)"
+			],
+			[
+				"Alt",
+				"AltGr	KeyCode.*"
+			],
+			[
+				"Getaxis",
+				"GetAxisRaw	Input.*(axisName)"
+			],
+			[
+				"getaxisr",
+				"GetAxisRaw"
+			],
+			[
+				"rigidbody",
+				"rigidbody2D.velocity	[var]"
+			],
+			[
+				"magnit",
+				"magnitude	Vector2.*"
+			],
+			[
+				"velocity",
+				"velocity	Rigidbody2D.*"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/PlayerMovement.cs",
+			"settings":
+			{
+				"buffer_size": 349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/BrickManager.cs",
+			"settings":
+			{
+				"buffer_size": 813,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"paci",
+				"Package Control: Install Package"
+			],
+			[
+				"c#",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"packin	",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"installe",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pyru",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"py",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pryu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"pyur",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyr	",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyru	",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"PYRU",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyuru",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pry",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"pytr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"PYRI",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyeu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"pyrtu",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"ptyr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyrru",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pytru",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pru",
+				"PersistentRegexHighlight: Unhighlight All Files"
+			],
+			[
+				"pyrui",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pp",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"ppry",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pyrt",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"pack re",
+				"Package Control: Remove Package"
+			],
+			[
+				"packlis",
+				"Package Control: List Packages"
+			],
+			[
+				"ptry",
+				"Package Control: Add Repository"
+			],
+			[
+				"Pyru",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pYRU",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pyrun",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pythro",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"reppyr",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"Packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"pakin",
+				"Package Control: Install Package"
+			],
+			[
+				"packa list",
+				"Package Control: List Packages"
+			],
+			[
+				"package remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packet in",
+				"Package Control: Install Package"
+			],
+			[
+				"pinst",
+				"Package Control: Install Package"
+			],
+			[
+				"painst",
+				"Package Control: Install Package"
+			],
+			[
+				"pins",
+				"Package Control: Install Package"
+			],
+			[
+				"pinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"pac instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package lst",
+				"Package Control: List Packages"
+			],
+			[
+				"packa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal	",
+				"Package Control: Install Package"
+			],
+			[
+				"package control insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 137.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Player/PlayerShooting.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/_CompletedAssets/MobileInput/Scripts/Editor/CrossPlatformInputInitialize.cs",
+		"/D/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Player/PlayerMovement.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Enemy/EnemyAttack.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Camera/CameraFollow.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Enemy/EnemyMovement.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Managers/ScoreManager.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Managers/GameOverManager.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Managers/EnemyManager.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Managers/WeaponManager.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Player/PlayerHealth.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/_CompletedAssets/Scripts/Managers/EnemyManager.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Enemy/EnemyHealth.cs",
+		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Camera/Editor/CameraFollow.cs",
+		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/User/ApplySyntax.sublime-settings",
+		"/D/DiscordBots/invitescreen.py",
+		"/D/DiscordBots/DS3_U/Emerald Herald/emerald.py",
+		"/D/DiscordBots/Personal/Red-DiscordBot-develop/red.py",
+		"/D/DiscordBots/Personal/Red-DiscordBot-develop/cogs/audio.py",
+		"/D/DiscordBots/Personal/ConsolePlay.py",
+		"/D/DiscordBots/Personal/Red-DiscordBot-develop/data/red/cogs.json",
+		"/D/DiscordBots/Personal/Red-DiscordBot-develop/data/red/disabled_commands.json",
+		"/D/DiscordBots/Personal/Red-DiscordBot-develop/data/red/settings.json",
+		"/D/DiscordBots/Personal/Red-DiscordBot-develop/Red-DiscordBot/data/red/settings.json",
+		"/G/Pokémap/PokemonGo-Map-master/example.py",
+		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/DiscordBots/DS3_U/Wiki/New folder/wikia/wikia/wikia.py",
+		"/D/DiscordBots/DS3_U/Wiki/New folder/test.py",
+		"/D/DiscordBots/DS3_U/Wiki/New folder/wikibot-wikipedia-pypi.py",
+		"/D/DiscordBots/DS3_U/Wiki/New folder/wikia/wikia/tests/lang_test.py",
+		"/D/DiscordBots/DS3_U/Wiki/wikibot-wikipedia-pypi.py",
+		"/C/Users/Connor/AppData/Local/Programs/Python/Python35/Scripts/cxfreeze",
+		"/G/cx/anthony_tuininga-cx_freeze-a69936ec621c/build/lib.win-amd64-3.5/cx_Freeze/__init__.py",
+		"/D/Users/Connor/Desktop/2420/1 Searching Sorting-3.py",
+		"/D/Users/Connor/Desktop/2420/3 LinkedList and Quicksort-1.py",
+		"/I/@@@@@2/lamdatest.py",
+		"/G/PyInstaller-3.1.1/README.rst",
+		"/D/DiscordBots/B5TA/My Bots/voiceofseren/Voice of Seren.spec",
+		"/G/PyInstaller-3.1.1/pyinstaller-gui.py",
+		"/G/PyInstaller-3.1.1/setup.py",
+		"/G/PyInstaller-3.1.1/pyinstaller.py",
+		"/D/DiscordBots/DS3_U/RED V1.2/Red/json/settings.json",
+		"/D/DiscordBots/DS3_U/RED V1.2/Red/red.py",
+		"/D/DiscordBots/DS3_U/Red/economy.py",
+		"/D/DiscordBots/B5TA/My Bots/adventurerslog/bot.py",
+		"/D/DiscordBots/DS3_U/Red/red.py",
+		"/D/Users/Connor/Documents/my games/Tom Clancy's The Division/GFXSettings.Rogue_x64.xml",
+		"/D/Games/GeDoSaTo/config/GeDoSaTo.ini",
+		"/D/Users/Connor/Desktop/2420/3 LinkedList and Quicksort.py",
+		"/D/Users/Connor/Desktop/2100/combinatorics.py",
+		"/D/Users/Connor/Desktop/2100/primes.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/b5taradio/red.py",
+		"/D/Users/Connor/Documents/UTAH/SPRING 2016/EAE 2420/a/2 Lambdas and Generators-1.py",
+		"/D/Users/Connor/Documents/UTAH/SPRING 2016/EAE 2420/a/3 LinkedList and Quicksort-1.py",
+		"/D/Users/Connor/Documents/UTAH/SPRING 2016/EAE 2420/a/1 Searching Sorting-3.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/Red-DiscordBot/red.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/b5taradio/cogs/general.py",
+		"/D/DiscordBots/adventurerslog/Procfile",
+		"/D/DiscordBots/Red-DiscordBot-develop/b5taradio/cogs/audio.py",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg/lib/Logic/DJ.js",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg/lib/Logic/Playable.js",
+		"/D/DiscordBots/Red-DiscordBot-develop/Red-DiscordBot-develop/cogs/audio.py",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg/lib/Logic/InternalDJ.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Logic/Decoder.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/runtime/DiscordDJ.js",
+		"/D/DiscordBots/Red-DiscordBot-develop/Red-DiscordBot-develop/data/red/settings.json",
+		"/D/DiscordBots/Red-DiscordBot-develop/Red-DiscordBot-develop/cogs/utils/settings.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/Red-DiscordBot-develop/red.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/Red-DiscordBot-develop/cogs/general.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/b5taradio/cogs/utils/checks.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/b5taradio/cogs/utils/chat_formatting.py",
+		"/D/DiscordBots/Red-DiscordBot-develop/b5taradio/cogs/utils/__init__.py",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg/lib/Logic/Decoder.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Audio/FileAudio.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Audio/StreamAudio.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Bot/PlaylistMode.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Bot/BotDJ.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Logic/DJ.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Logic/Playable.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Logic/DJManager.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Bot/Commands.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Logic/ChatHandler.js",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/lib/Audio/YoutubeVideo.js",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg-0.0.4/lib/Logic/Decoder.js",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg-0.0.4/lib/Logic/ChatHandler.js",
+		"/D/DiscordBots/voiceofseren/vos.py",
+		"/D/DiscordBots/adventurerslog/bot.py",
+		"/D/Users/Connor/jagexcache/jagexlauncher/runescape/runescape.prm",
+		"/D/DiscordBots/DiscordDJ-master/DiscordDJ-master/runtime/Special.js",
+		"/D/DiscordBots/DiscordDJ-master/windows-with-ffmpeg-0.0.4/runtime/DiscordDJ.js",
+		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/D/DiscordBots/RunescapeNews/Procfile",
+		"/D/Users/Connor/Pictures/Wallpapers/1 Searching Sorting-3.py",
+		"/D/Android/RuneClan - B5TA.html",
+		"/D/DiscordBots/herokuexample/python-getting-started/Procfile",
+		"/D/DiscordBots/herokuexample/python-getting-started/Procfile.windows",
+		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/User/Pylinter.sublime-settings",
+		"/D/DiscordBots/RunescapeNews/app.json",
+		"/D/DiscordBots/RunescapeNews/feed2discord.py",
+		"/D/DiscordBots/RunescapeNews/feed2discord.ini",
+		"/G/searchingsorting.py",
+		"/D/DiscordBots/RunescapeNews/.git/description",
+		"/D/DiscordBots/gravebot/Procfile",
+		"/D/DiscordBots/herokuexample/python-getting-started/manage.py",
+		"/D/DiscordBots/herokuexample/python-getting-started/.env",
+		"/D/DiscordBots/RunescapeNews/Procfile.windows",
+		"/D/Python34/Lib/site-packages/easy_install.py",
+		"/D/Python34/Scripts/pip3.4.exe",
+		"/D/gif2fb-master/gif2fb-master/app/app.py",
+		"/D/Users/Connor/Documents/The Witcher 3/input.settings",
+		"/G/03 - LInked LIst, Quicksort.py",
+		"/D/Users/Connor/Desktop/2420/03 - LInked LIst, Quicksort.py",
+		"/G/assignment2.py",
+		"/D/Users/Connor/Documents/The Witcher 3/input.2.settings",
+		"/D/Users/Connor/Documents/The Witcher 3/input.Day1.settings",
+		"/D/Users/Connor/Desktop/2420/03 - LInked LIst, Quicksor2t.py",
+		"/D/extralifehelper/ExtraLifeHelperWrapper.html",
+		"/D/Users/Connor/Documents/Hw03 linked list_Geoffrey Sutyak-1.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/zombie.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/revolver.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/player.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/main.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/game2exe.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/buildingColliders.py",
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/buildings.py",
+		"/D/Users/Connor/Google Drive/EAE 1410 final project_/CODE RELATED/classes/main.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tag",
+			"currentWeapon",
+			"Weapons",
+			"skinnedMeshRenderer",
+			"SkinnedMeshRenderer",
+			"skinnedMeshRenderer",
+			"Texture",
+			"meshRenderer",
+			"transform",
+			"add_to",
+			"ICONDict",
+			"sub",
+			"entity",
+			"search",
+			"html2",
+			"evens",
+			"onefile",
+			"settings =",
+			"settings",
+			"ismemberadmin",
+			"testServer",
+			"contains('PS4",
+			"logger.e",
+			"mp3",
+			"help",
+			"process_com",
+			"createdecoder",
+			"USER",
+			"rsuserna",
+			"else if",
+			"time",
+			"'channels'",
+			"print(",
+			"username",
+			"quicksave",
+			"spawnHorse",
+			"right",
+			"HORSE",
+			"Horse",
+			"horse",
+			"PAD_LEFT",
+			"horse",
+			"list",
+			"List",
+			"list",
+			"mid",
+			"condition",
+			"gauntlet",
+			"])",
+			"reversed(secondBinary[i]",
+			"reversed(firstBinary[i])",
+			"secondBinary[i]",
+			"[i]",
+			"i",
+			"true",
+			"false",
+			"self.head",
+			"node1",
+			"lowestValue",
+			"ind1",
+			"startIndex",
+			"value",
+			"val",
+			"spawn",
+			"distance",
+			"zombie",
+			"jumpDistance",
+			"jumpDistancedawd",
+			"onladder",
+			"setcamera",
+			"vertical_shi",
+			"vertical_\\",
+			"vertical_",
+			"vert",
+			"frame",
+			"dy",
+			"jump",
+			"devel",
+			"s_player",
+			"currentLevel",
+			"jumpDistance",
+			"self.jumpdistance",
+			"self.jumpdistance = 32",
+			"time",
+			"arma3",
+			"wallcolli",
+			"floorcollid",
+			"Building_Colliders",
+			"ObjList_buildingColliders",
+			"buildingPieces",
+			"weapon_list",
+			"ammoPickup_list",
+			"3078",
+			"vert_",
+			"3078",
+			"Obj_",
+			".player",
+			"zombie_list",
+			"level",
+			".player",
+			".playyer",
+			"buildingColliders_list",
+			"buildingcolliders_list",
+			"screen",
+			"path",
+			"\n        ",
+			"buildings",
+			"fill",
+			"----------\n",
+			"DISPLAYSURF",
+			"SUITSURF",
+			"SUITSURF_1",
+			"SUITSURF",
+			"suitname",
+			"textsurf_1",
+			"textsurf",
+			"SUIT",
+			"suit",
+			"0",
+			"drawCards",
+			"gDeck",
+			"11",
+			"cardSurfNum",
+			"CARDSURF_1",
+			"cardSurfNum",
+			"CARDSURF_1",
+			"100",
+			"CARDSURF"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/PlayerMovement.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								303
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										345,
+										346
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										284,
+										285
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/BrickManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								740,
+								740
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										744,
+										745
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										673,
+										674
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 122.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ddar",
+				"C:\\Users\\Connor\\AppData\\Roaming\\Sublime Text 3\\Packages\\Themes\\Darcula Theme.tmTheme"
+			],
+			[
+				"pl",
+				"C:\\Users\\Connor\\Programming\\Unity\\Platformer Basic\\Assets\\PlayerControls.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
