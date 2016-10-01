@@ -20,7 +20,9 @@ public class PlayerMovement : MonoBehaviour {
 	void FixedUpdate(){
 		Rigidbody2D myRigidbody2D = GetComponent<Rigidbody2D>();
 		
-		if (Input.GetButton("Jump") && isGrounded){
+		GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, myRigidbody2D.velocity.y);
+
+		if (Input.GetButtonDown("Jump") && isGrounded){
 			//print("Jumping");
 			myRigidbody2D.AddForce(Vector2.up * 150);
 		}
