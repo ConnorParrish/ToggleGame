@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	public float Speed = 5;
+	public float Speed;
 	public bool isGrounded = true;
 	// Use this for initialization
 	void Start () {
