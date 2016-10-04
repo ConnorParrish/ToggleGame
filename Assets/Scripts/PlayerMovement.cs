@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour {
 
 	public float Speed;
+	public float JumpStrength;
 	public bool isGrounded = true;
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (Input.GetButtonDown("Jump") && isGrounded){
 			//print("Jumping");
-			myRigidbody2D.AddForce(Vector2.up * 150);
+			myRigidbody2D.AddForce(Vector2.up * JumpStrength);
 		}		
 	}
 }
