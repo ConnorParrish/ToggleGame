@@ -44,7 +44,7 @@ public class BrickManager : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 		if (Input.GetKeyDown(KeyCode.Q)){
 			swapState(WhitePlatforms);
 			swapState(BlackPlatforms);

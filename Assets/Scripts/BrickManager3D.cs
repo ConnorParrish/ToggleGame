@@ -73,7 +73,7 @@ public class BrickManager3D : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate(){
+	void Update(){
 		if (Input.GetKeyDown(KeyCode.Q)){
 			Debug.Log("Swapping colors");
 			StartCoroutine(swapState(WhitePlatforms));
