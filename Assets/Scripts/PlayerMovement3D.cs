@@ -17,7 +17,7 @@ public class PlayerMovement3D : MonoBehaviour {
 	// }
 
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
 		Rigidbody rb3d = GetComponent<Rigidbody>();
 
 		if (Input.GetButtonDown("Jump") && isGrounded){
