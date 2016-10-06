@@ -54,7 +54,7 @@ GameObject:
   - 212: {fileID: 212000012140714544}
   - 61: {fileID: 61000011938940288}
   m_Layer: 9
-  m_Name: Black Platform
+  m_Name: Black Platform 2D
   m_TagString: BlackPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

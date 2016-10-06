@@ -54,7 +54,7 @@ GameObject:
   - 212: {fileID: 212000012137449924}
   - 61: {fileID: 61000012728368682}
   m_Layer: 8
-  m_Name: White Platform
+  m_Name: White Platform 2D
   m_TagString: WhitePlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
