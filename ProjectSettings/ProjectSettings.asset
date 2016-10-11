@@ -535,6 +535,6 @@ PlayerSettings:
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
   cloudProjectId: 7bf3c9f3-d16d-4c35-abfe-ca470a807423
-  projectName: TraditionalGameDev (1)
+  projectName: Toggle
   organizationId: connor-parrish-519831
   cloudEnabled: 0
