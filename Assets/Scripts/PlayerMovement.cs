@@ -17,26 +17,29 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
 		
-<<<<<<< HEAD
+
 		rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
 
-
-
-		if (Input.GetButtonDown("Jump") && isGrounded){
-			//print("Jumping");
-			rb2d.AddForce(Vector2.up * 150);
-=======
 		GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, rb2d.velocity.y);
 
 		if (Input.GetButtonDown("Jump") && isGrounded){
 			//print("Jumping");
 			rb2d.AddForce(Vector2.up * JumpStrength);
 			isGrounded = false;
->>>>>>> 80e8f93b89d4750867ba164380923d03af1501a5
-		}		
+		}
+
+		if (Input.GetKeyDown(KeyCode.Q)){
+			if (GetComponent<Renderer>().material.color == Color.red) {
+				GetComponent<Renderer>().material.color = Color.black;
+			}
+			else if (GetComponent<Renderer>().material.color == Color.black) {
+				GetComponent<Renderer>().material.color = Color.red;
+			}
+		}
+
 	}
 
-	void OnCollision(Collision blockCollision){
+	void OnCollisionEnter2D(Collision2D blockCollision){
 		Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
 		if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
 			isGrounded = true;
