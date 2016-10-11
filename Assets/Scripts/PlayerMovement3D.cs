@@ -11,17 +11,20 @@ public class PlayerMovement3D : MonoBehaviour {
 		GetComponent<Rigidbody>().velocity = new Vector3(Speed, 0);
 	}
 	
-	void Update(){
+	// Determines if the player can jump
+	// void OnCollisionEnter(Collision blockCollision){
+	// 	return;
+	// }
+
+	// Update is called once per frame
+	void FixedUpdate () {
 		Rigidbody rb3d = GetComponent<Rigidbody>();
 
 		if (Input.GetButtonDown("Jump") && isGrounded){
 			Debug.Log("I jump");
 			rb3d.AddForce(Vector3.up * 300);
 		}
-	}
 
-	// Determines if the player can jump
-	// void OnCollisionEnter(Collision blockCollision){
-	// 	return;
-	// }
+
+	}
 }

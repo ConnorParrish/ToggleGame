@@ -14,13 +14,15 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Rigidbody2D myRigidbody2D = GetComponent<Rigidbody2D>();
+		Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
 		
-		GetComponent<Rigidbody2D>().velocity = new Vector2(Speed, myRigidbody2D.velocity.y);
+		rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
+
+
 
 		if (Input.GetButtonDown("Jump") && isGrounded){
 			//print("Jumping");
-			myRigidbody2D.AddForce(Vector2.up * 150);
+			rb2d.AddForce(Vector2.up * 150);
 		}		
 	}
 }

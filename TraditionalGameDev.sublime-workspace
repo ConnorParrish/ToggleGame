@@ -92,33 +92,24 @@
 	"buffers":
 	[
 		{
-			"file": "Assets/Scripts/PlayerMovement.cs",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 349,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Assets/Scripts/BrickManager.cs",
-			"settings":
-			{
-				"buffer_size": 813,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
-		"height": 180.0,
-		"last_filter": "",
+		"height": 368.0,
 		"selected_items":
 		[
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: up",
 				"Package Control: Upgrade Package"
@@ -138,10 +129,6 @@
 			[
 				"c#",
 				"Set Syntax: Unity C#"
-			],
-			[
-				"packin",
-				"Package Control: Install Package"
 			],
 			[
 				"packin	",
@@ -444,7 +431,7 @@
 				"Package Control: Add Channel"
 			]
 		],
-		"width": 538.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -466,6 +453,11 @@
 	},
 	"file_history":
 	[
+		"/D/DiscordBots/DS3_U/Emerald Herald/emerald.py",
+		"/C/Users/Public/Documents/Unity Projects/TraditionalGameDev/Assets/Scripts/BrickManager.cs",
+		"/C/Users/Public/Documents/Unity Projects/TraditionalGameDev/Assets/Scripts/PlayerMovement3D.cs",
+		"/C/Users/Public/Documents/Unity Projects/TraditionalGameDev/Assets/Scripts/PlayerMovement.cs",
+		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/Scripts/Player/PlayerShooting.cs",
 		"/C/Users/Public/Documents/Unity Projects/TwinStick Tutorial/Assets/_CompletedAssets/MobileInput/Scripts/Editor/CrossPlatformInputInitialize.cs",
 		"/D/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll",
@@ -484,7 +476,6 @@
 		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Connor/AppData/Roaming/Sublime Text 3/Packages/User/ApplySyntax.sublime-settings",
 		"/D/DiscordBots/invitescreen.py",
-		"/D/DiscordBots/DS3_U/Emerald Herald/emerald.py",
 		"/D/DiscordBots/Personal/Red-DiscordBot-develop/red.py",
 		"/D/DiscordBots/Personal/Red-DiscordBot-develop/cogs/audio.py",
 		"/D/DiscordBots/Personal/ConsolePlay.py",
@@ -589,15 +580,11 @@
 		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/zombie.py",
 		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/revolver.py",
 		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/player.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/main.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/game2exe.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/buildingColliders.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/buildings.py",
-		"/D/Users/Connor/Google Drive/EAE 1410 final project_/CODE RELATED/classes/main.py"
+		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/main.py"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 55.0
 	},
 	"find_in_files":
 	{
@@ -612,6 +599,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"myRigidbody2D",
 			"tag",
 			"currentWeapon",
 			"Weapons",
@@ -738,8 +726,7 @@
 			"CARDSURF_1",
 			"cardSurfNum",
 			"CARDSURF_1",
-			"100",
-			"CARDSURF"
+			"100"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -758,55 +745,40 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Scripts/PlayerMovement.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 349,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								322,
-								303
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"apply_syntax_touched": true,
+							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										345,
-										346
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										284,
-										285
-									]
 								},
 								"unmatched":
 								{
@@ -814,181 +786,63 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Assets/Scripts/BrickManager.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 813,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								740,
-								740
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										744,
-										745
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										673,
-										674
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1043,7 +897,6 @@
 	{
 		"height": 122.0
 	},
-	"pinned_build_system": "",
 	"project": "",
 	"replace":
 	{
@@ -1053,7 +906,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1070,16 +922,18 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\Public\\Documents\\Unity Projects\\TraditionalGameDev\\TraditionalGameDev.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
 	"select_symbol":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
