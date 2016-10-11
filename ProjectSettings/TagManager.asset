@@ -6,6 +6,7 @@ TagManager:
   tags:
   - WhitePlatform
   - BlackPlatform
+  - Spike
   layers:
   - Default
   - TransparentFX
