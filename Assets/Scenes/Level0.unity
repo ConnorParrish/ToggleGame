@@ -809,6 +809,7 @@ GameObject:
   - 223: {fileID: 892437741}
   - 114: {fileID: 892437740}
   - 114: {fileID: 892437739}
+  - 95: {fileID: 892437743}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -892,6 +893,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &892437743
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 892437738}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: afba88129347b0b45b68d98394db933e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &940129550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,6 +1710,7 @@ MonoBehaviour:
   JumpStrength: 800
   isGrounded: 1
   isDead: 0
+  GameOver: {fileID: 892437743}
 --- !u!50 &1843955362
 Rigidbody2D:
   serializedVersion: 2

@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isGrounded = false;
 	public bool isDead = false;
 
+    //Animator to cause GameOver
+    public Animator GameOver;
+
 	Rigidbody2D rb2d;
 	Material playerMat;
 
@@ -26,6 +29,9 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (isDead){
 			rb2d.velocity = rb2d.velocity*(-1);
+
+            //This code added to trigger Gameover Anim.
+            GameOver.SetTrigger("isDead");
 		}
 
 		if (Input.GetButtonDown("Jump") && isGrounded){
@@ -43,7 +49,15 @@ public class PlayerMovement : MonoBehaviour {
 			}
 		}
 
-	}
+
+        //This is test code to kill character and view GameOver screen.
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            isDead = true;
+        }
+
+
+    }
 
 	void OnCollisionEnter2D(Collision2D blockCollision){
 		//Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
