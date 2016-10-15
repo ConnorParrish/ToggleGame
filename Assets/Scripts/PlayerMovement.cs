@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour {
 		rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
 
 		if (isDead){
+            Debug.Log("Died");
 			rb2d.velocity = rb2d.velocity*(-1);
 
             //This code added to trigger Gameover Anim.
