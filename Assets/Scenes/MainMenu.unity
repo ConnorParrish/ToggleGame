@@ -154,6 +154,48 @@ Transform:
   - {fileID: 1572945008}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1001 &1139622107
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011981031814, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7429856ef66ae834e933d1a5b4cb24a8, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1464615988
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450c5ebb8247f724da9b19b66f9b5fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Level0
+  LevelToLoad: Level1
   IsExit: 0
 --- !u!61 &1507297899
 BoxCollider2D:

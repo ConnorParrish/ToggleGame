@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour {
 
 	public float Speed;
 	public float JumpStrength;
+    private int CurrentLevelInt;
 	public bool isGrounded = false;
 	public bool isDead = false;
 
@@ -16,9 +18,9 @@ public class PlayerMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		playerMat = GetComponent<Renderer>().material;
+        CurrentLevelInt = Application.loadedLevel;
+        playerMat = GetComponent<Renderer>().material;
 		rb2d = GetComponent<Rigidbody2D>();
-
 		playerMat.color = Color.red;
 		rb2d.velocity = new Vector2(Speed, 0);
 	}
@@ -49,6 +51,11 @@ public class PlayerMovement : MonoBehaviour {
 				playerMat.color = Color.red;
 			}
 		}
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(CurrentLevelInt);
+        }
 
 
         //This is test code to kill character and view GameOver screen.

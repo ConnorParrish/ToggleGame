@@ -485,8 +485,8 @@ PlayerSettings:
   - WebGL::template
   - additionalIl2CppArgs::additionalIl2CppArgs
   Analytics_ServiceEnabled::Analytics_ServiceEnabled: False
-  Build_ServiceEnabled::Build_ServiceEnabled: True
-  Collab_ServiceEnabled::Collab_ServiceEnabled: True
+  Build_ServiceEnabled::Build_ServiceEnabled: False
+  Collab_ServiceEnabled::Collab_ServiceEnabled: False
   ErrorHub_ServiceEnabled::ErrorHub_ServiceEnabled: False
   Game_Performance_ServiceEnabled::Game_Performance_ServiceEnabled: False
   Hub_ServiceEnabled::Hub_ServiceEnabled: False
@@ -534,7 +534,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 7bf3c9f3-d16d-4c35-abfe-ca470a807423
-  projectName: Toggle
-  organizationId: connor-parrish-519831
+  cloudProjectId: 4c0d73ca-9a82-437b-be7e-390dfefff85a
+  projectName: TraditionalGameDev
+  organizationId: luke-alexander
   cloudEnabled: 0
