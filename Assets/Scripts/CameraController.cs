@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour {
 	private Vector3 offset;
 	// Use this for initialization
 	void Start () {
-		offset = new Vector3(0, 0, -10);
+		offset = new Vector3(3, 0, -10);
 		//GameObject.transform.x 
 	}
 	

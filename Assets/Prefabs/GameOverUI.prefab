@@ -79,7 +79,7 @@ GameObject:
   - 114: {fileID: 114000012416082658}
   - 95: {fileID: 95000010683201782}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameOverUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450c5ebb8247f724da9b19b66f9b5fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Level0
+  LevelToLoad: 4c6576656c30
   IsExit: 1
 --- !u!212 &212000010597001760
 SpriteRenderer:
