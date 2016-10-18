@@ -534,7 +534,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 4c0d73ca-9a82-437b-be7e-390dfefff85a
-  projectName: TraditionalGameDev
-  organizationId: luke-alexander
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0

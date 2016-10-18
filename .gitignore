@@ -41,3 +41,5 @@ DLL
 ===========
 !*.dll
 !*.obj
+TogglePrototype_Data/
+TogglePrototype.exe
