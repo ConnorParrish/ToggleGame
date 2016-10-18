@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
 
+		if (rb2d.position.y <= -10){
+			isDead = true;
+		}
 		if (isDead){
             Debug.Log("Died");
 			rb2d.velocity = rb2d.velocity*(-1);

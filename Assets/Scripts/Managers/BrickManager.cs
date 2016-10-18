@@ -9,6 +9,8 @@ public class BrickManager : MonoBehaviour {
 	public string Active;
 	public Color WhiteColor;
 	public Color BlackColor;
+	public Sprite WhiteSprite;
+	public Sprite BlackSprite;
 	
 	// Use this for initialization
 	void Start () {
@@ -19,12 +21,14 @@ public class BrickManager : MonoBehaviour {
 		BlackPlatforms = GameObject.FindGameObjectsWithTag("BlackPlatform");
 
 		foreach (GameObject platform in WhitePlatforms){
+			//platform.GetComponent<SpriteRenderer>().sprite = WhiteSprite;
 			if (platform.GetComponent<BoxCollider2D>() != null){
 				platform.GetComponent<BoxCollider2D>().enabled = true;
 			}
 		}
 
 		foreach (GameObject platform in BlackPlatforms){
+			//platform.GetComponent<SpriteRenderer>().sprite = BlackSprite;
 			if (platform.GetComponent<BoxCollider2D>() != null){
 				platform.GetComponent<BoxCollider2D>().enabled = false;
 			}

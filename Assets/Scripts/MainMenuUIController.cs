@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour {
+public class MainMenuUIController : MonoBehaviour {
 
     public string LevelToLoad;
     public bool IsExit;
