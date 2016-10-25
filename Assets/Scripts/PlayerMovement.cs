@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour {
     private int CurrentLevelInt;
 	public bool isGrounded = false;
 	public bool isDead = false;
+	public bool isWhite = true;
+
 
     //Animator to cause GameOver
     public Animator GameOver;
@@ -16,13 +18,20 @@ public class PlayerMovement : MonoBehaviour {
 	Rigidbody2D rb2d;
 	Material playerMat;
 
+	//loads the animation call script
+	private AnimationController2D animController;
+	private Animator anim;
+
 	// Use this for initialization
 	void Start () {
-        CurrentLevelInt = Application.loadedLevel;
+		anim = GetComponent<Animator> ();
+		anim.SetBool ("isWhite", isWhite);
+		CurrentLevelInt = Application.loadedLevel;
         playerMat = GetComponent<Renderer>().material;
 		rb2d = GetComponent<Rigidbody2D>();
-		playerMat.color = Color.red;
+		//playerMat.color = Color.red;
 		rb2d.velocity = new Vector2(Speed, 0);
+		animController = gameObject.GetComponent<AnimationController2D> ();
 	}
 	
 	// Update is called once per frame
@@ -40,19 +49,30 @@ public class PlayerMovement : MonoBehaviour {
             GameOver.SetTrigger("isDead");
 		}
 
+		//Jumping
 		if (Input.GetButtonDown("Jump") && isGrounded){
 			//print("Jumping");
 			rb2d.AddForce(Vector2.up * JumpStrength);
 			isGrounded = false;
+			anim.SetBool ("isGrounded", isGrounded);
+			//anim.SetBool ("isWhite", isWhite);
+			//animController.setAnimation ("jump_white");
+
+		}
+
+		//Mid-air swapping
+		if (Input.GetKeyDown(KeyCode.Q) && isGrounded == false) {
+			if (isWhite) {
+				//animController.setAnimation ("jump_white");
+			} else if (!isWhite) {
+				//animController.setAnimation ("jump_black");
+			}
 		}
 
 		if (Input.GetKeyDown(KeyCode.Q)){
-			if (playerMat.color == Color.red) {
-				playerMat.color = Color.black;
-			}
-			else if (playerMat.color == Color.black) {
-				playerMat.color = Color.red;
-			}
+			isWhite = !isWhite;
+			anim.SetBool("isWhite", isWhite);
+
 		}
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -74,6 +94,7 @@ public class PlayerMovement : MonoBehaviour {
 		//Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
 		if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
 			isGrounded = true;
+			anim.SetBool ("isGrounded", isGrounded);
 		}
 		if (blockCollision.gameObject.tag == "Spike"){
 			Debug.Log("Fuck, that hurt");
