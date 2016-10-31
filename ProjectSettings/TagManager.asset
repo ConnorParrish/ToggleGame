@@ -7,6 +7,7 @@ TagManager:
   - WhitePlatform
   - BlackPlatform
   - Spike
+  - Trampoline
   layers:
   - Default
   - TransparentFX
