@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isGrounded = false;
 	public bool isDead = false;
 	public bool isWhite = true;
+    public int bounceMag;
+
+    public Camera playerCamera;
 
 
     //Animator to cause GameOver
@@ -43,7 +46,7 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if (isDead){
             Debug.Log("Died");
-			rb2d.velocity = rb2d.velocity*(-1);
+			rb2d.velocity = rb2d.velocity*(0);
 
             //This code added to trigger Gameover Anim.
             GameOver.SetTrigger("isDead");
@@ -95,16 +98,46 @@ public class PlayerMovement : MonoBehaviour {
     }
 
 	void OnCollisionEnter2D(Collision2D blockCollision){
-		//Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
+        //Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
 		if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
 			isGrounded = true;
+<<<<<<< HEAD
 			foreach (Animator animator in anim){
 				animator.SetBool ("isGrounded", isGrounded);
 			}
+=======
+            //Debug.Log("New Collision");
+
+            anim.SetBool ("isGrounded", isGrounded);
+            Vector2 direction = blockCollision.gameObject.transform.position - this.transform.position;
+            //Debug.Log(direction);
+
+            Vector2 directionRight = new Vector2((float)1.513132, (float) -0.5);
+            //Debug.Log("Right is" + directionRight.ToString());
+            //Debug.Log("direction compare" + direction.ToString() + "and" + directionRight.ToString());
+            if (direction.ToString() == directionRight.ToString())
+            {
+                //Debug.Log("Reverse triggered");
+                Speed = -Speed;   
+                             
+            }
+>>>>>>> 952cc2aba400c636a9df81af9e1bab856b54e829
 		}
+
 		if (blockCollision.gameObject.tag == "Spike"){
 			Debug.Log("Fuck, that hurt");
 			isDead = true;
 		}
+
+        //Code for trampoline collision, reverses Y momentum.
+        if (blockCollision.gameObject.tag == "Trampoline")
+        {
+            //Debug.Log("bounce Triggered");
+            //Find the magnitude of the moving figure, push up by that power times bounceMag.
+            var bounceVelocity = System.Math.Abs(rb2d.velocity.magnitude);
+            rb2d.AddForce((Vector2.up * bounceVelocity * bounceMag));
+        }
+        //Code for reverse block
+        
 	}
 }
