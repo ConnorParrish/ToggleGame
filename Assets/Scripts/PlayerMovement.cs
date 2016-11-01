@@ -101,14 +101,14 @@ public class PlayerMovement : MonoBehaviour {
         //Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
 		if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
 			isGrounded = true;
-<<<<<<< HEAD
-			foreach (Animator animator in anim){
-				animator.SetBool ("isGrounded", isGrounded);
+
+			foreach (Animator anims in anim){
+				anims.SetBool ("isGrounded", isGrounded);
 			}
-=======
+
             //Debug.Log("New Collision");
 
-            anim.SetBool ("isGrounded", isGrounded);
+            //anim.SetBool ("isGrounded", isGrounded);
             Vector2 direction = blockCollision.gameObject.transform.position - this.transform.position;
             //Debug.Log(direction);
 
@@ -121,7 +121,7 @@ public class PlayerMovement : MonoBehaviour {
                 Speed = -Speed;   
                              
             }
->>>>>>> 952cc2aba400c636a9df81af9e1bab856b54e829
+
 		}
 
 		if (blockCollision.gameObject.tag == "Spike"){
