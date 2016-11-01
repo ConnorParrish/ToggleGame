@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour {
@@ -19,19 +20,18 @@ public class PlayerMovement : MonoBehaviour {
 	Material playerMat;
 
 	//loads the animation call script
-	private AnimationController2D animController;
-	private Animator anim;
+	private List<Animator> anim = new List<Animator>();
+	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
 	// Use this for initialization
 	void Start () {
-		anim = GetComponent<Animator> ();
-		anim.SetBool ("isWhite", isWhite);
+		GetComponentsInChildren<Animator> (true, anim);
+		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);
 		CurrentLevelInt = Application.loadedLevel;
         playerMat = GetComponent<Renderer>().material;
 		rb2d = GetComponent<Rigidbody2D>();
 		//playerMat.color = Color.red;
 		rb2d.velocity = new Vector2(Speed, 0);
-		animController = gameObject.GetComponent<AnimationController2D> ();
 	}
 	
 	// Update is called once per frame
@@ -54,10 +54,9 @@ public class PlayerMovement : MonoBehaviour {
 			//print("Jumping");
 			rb2d.AddForce(Vector2.up * JumpStrength);
 			isGrounded = false;
-			anim.SetBool ("isGrounded", isGrounded);
-			//anim.SetBool ("isWhite", isWhite);
-			//animController.setAnimation ("jump_white");
-
+			foreach (Animator animator in anim){
+				animator.SetBool ("isGrounded", isGrounded);
+			}
 		}
 
 		//Mid-air swapping
@@ -71,8 +70,13 @@ public class PlayerMovement : MonoBehaviour {
 
 		if (Input.GetKeyDown(KeyCode.Q)){
 			isWhite = !isWhite;
-			anim.SetBool("isWhite", isWhite);
-
+			//anim.SetBool("isWhite", isWhite);
+			foreach (SpriteRenderer sprites in spriteRend){
+				sprites.enabled = !sprites.enabled;
+			}
+			foreach (Animator anims in anim){
+				//anims.enabled = !anims.enabled;
+			}
 		}
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -94,7 +98,9 @@ public class PlayerMovement : MonoBehaviour {
 		//Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
 		if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
 			isGrounded = true;
-			anim.SetBool ("isGrounded", isGrounded);
+			foreach (Animator animator in anim){
+				animator.SetBool ("isGrounded", isGrounded);
+			}
 		}
 		if (blockCollision.gameObject.tag == "Spike"){
 			Debug.Log("Fuck, that hurt");
