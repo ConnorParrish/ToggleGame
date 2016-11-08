@@ -200,7 +200,7 @@ MonoBehaviour:
   isGrounded: 0
   isDead: 0
   isWhite: 1
-  bounceMag: 175
+  bounceMag: 1750
   playerCamera: {fileID: 0}
   GameOver: {fileID: 0}
 --- !u!114 &114000013919975992

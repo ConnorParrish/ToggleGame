@@ -104,24 +104,7 @@ public class PlayerMovement : MonoBehaviour {
 
 			foreach (Animator anims in anim){
 				anims.SetBool ("isGrounded", isGrounded);
-			}
-
-            //Debug.Log("New Collision");
-
-            //anim.SetBool ("isGrounded", isGrounded);
-            Vector2 direction = blockCollision.gameObject.transform.position - this.transform.position;
-            //Debug.Log(direction);
-
-            Vector2 directionRight = new Vector2((float)1.513132, (float) -0.5);
-            //Debug.Log("Right is" + directionRight.ToString());
-            //Debug.Log("direction compare" + direction.ToString() + "and" + directionRight.ToString());
-            if (direction.ToString() == directionRight.ToString())
-            {
-                //Debug.Log("Reverse triggered");
-                Speed = -Speed;   
-                             
-            }
-
+			}            
 		}
 
 		if (blockCollision.gameObject.tag == "Spike"){
@@ -129,13 +112,25 @@ public class PlayerMovement : MonoBehaviour {
 			isDead = true;
 		}
 
-        //Code for trampoline collision, reverses Y momentum.
+        //Code to reverse player, works both directions from all directions.
+        if (blockCollision.gameObject.tag == "Reverse")
+        {
+            Debug.Log("Reverse");
+            Speed = -Speed;
+            this.transform.localScale = new Vector3(-this.transform.localScale.x, this.transform.localScale.y);
+
+        }
+
+        //Code for trampoline collision, hits player upward. 
         if (blockCollision.gameObject.tag == "Trampoline")
         {
-            //Debug.Log("bounce Triggered");
-            //Find the magnitude of the moving figure, push up by that power times bounceMag.
-            var bounceVelocity = System.Math.Abs(rb2d.velocity.magnitude);
-            rb2d.AddForce((Vector2.up * bounceVelocity * bounceMag));
+            Debug.Log("Jumped");
+            rb2d.AddForce(Vector2.up * bounceMag);
+            isGrounded = false;
+            foreach (Animator animator in anim)
+            {
+                animator.SetBool("isGrounded", isGrounded);
+            }
         }
         //Code for reverse block
         
