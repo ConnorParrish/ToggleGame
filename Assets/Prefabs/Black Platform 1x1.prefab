@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000012295504698}
+  - 61: {fileID: 61000013797011700}
   m_Layer: 0
   m_Name: Black Platform 1x1
   m_TagString: BlackPlatform
@@ -62,13 +63,27 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010399227290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.7763438, y: 5.252822, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000010028948626}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!61 &61000013797011700
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010399227290}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.01983738}
+  serializedVersion: 2
+  m_Size: {x: 1.3174057, y: 1.2777307}
 --- !u!212 &212000011416263060
 SpriteRenderer:
   m_ObjectHideFlags: 1
