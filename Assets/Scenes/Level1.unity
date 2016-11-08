@@ -194,6 +194,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -245,6 +257,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -291,6 +309,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -355,7 +385,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -473,8 +503,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &49697255
@@ -683,7 +713,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -929,6 +959,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -1180,6 +1222,27 @@ Prefab:
       propertyPath: m_RootOrder
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010164373028, guid: 472c54c853bab4a68a217f9d7514c82e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b5c0ea030df834a57a283931ba04e3fe,
+        type: 3}
+    - target: {fileID: 212000010164373028, guid: 472c54c853bab4a68a217f9d7514c82e,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010164373028, guid: 472c54c853bab4a68a217f9d7514c82e,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010164373028, guid: 472c54c853bab4a68a217f9d7514c82e,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 472c54c853bab4a68a217f9d7514c82e, type: 2}
   m_IsPrefabParent: 0
@@ -1231,6 +1294,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -1478,7 +1547,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1641,6 +1710,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -1692,6 +1767,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -1784,6 +1865,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614,
+        type: 3}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -1840,6 +1963,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -1891,6 +2056,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -1937,6 +2114,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2062,8 +2245,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &237937975 stripped
@@ -2114,6 +2297,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -2160,6 +2349,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2277,7 +2472,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2391,7 +2586,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2660,8 +2855,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &306733825 stripped
@@ -2763,6 +2958,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2842,7 +3049,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2955,7 +3162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3002,6 +3209,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -3136,6 +3355,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3274,6 +3499,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -3440,7 +3677,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3553,7 +3790,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3605,6 +3842,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3722,8 +3965,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &442647311
@@ -3886,6 +4129,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -3952,8 +4201,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &464701665
@@ -3999,6 +4248,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4223,6 +4478,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -4625,6 +4892,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -4696,6 +4969,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4777,6 +5062,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4884,6 +5175,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4930,6 +5227,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -4994,7 +5297,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5041,6 +5344,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5102,6 +5411,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5188,6 +5503,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5257,8 +5578,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &721723556 stripped
@@ -5342,8 +5663,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &746089603
@@ -5644,6 +5965,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5741,6 +6068,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5817,6 +6150,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5891,7 +6230,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5938,6 +6277,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -5984,6 +6365,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -6090,8 +6477,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &893198335
@@ -6137,6 +6524,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -6709,6 +7108,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -6831,7 +7236,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7000,7 +7405,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7047,6 +7452,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -7153,6 +7564,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -7375,7 +7828,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7440,7 +7893,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7619,8 +8072,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &1158134891
@@ -7666,6 +8119,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7722,6 +8181,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -7768,6 +8239,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614,
+        type: 3}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -7834,7 +8347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7881,6 +8394,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7998,7 +8517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8177,7 +8696,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8298,7 +8817,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8396,6 +8915,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8447,6 +8972,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -8503,6 +9040,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8740,7 +9283,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8884,6 +9427,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8986,6 +9535,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9032,6 +9587,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -9190,7 +9757,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9425,6 +9992,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9481,6 +10054,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9532,6 +10111,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -9731,6 +10316,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10103,8 +10700,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &1530115359 stripped
@@ -10155,6 +10752,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -10216,6 +10825,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10354,6 +10969,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10670,6 +11291,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10746,8 +11373,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &1591314661
@@ -10864,7 +11491,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10929,8 +11556,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &1613030859 stripped
@@ -10981,6 +11608,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11027,6 +11660,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -11091,7 +11736,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11194,6 +11839,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11240,6 +11891,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11439,6 +12096,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11485,6 +12154,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -11532,6 +12243,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 62
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -11710,8 +12427,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &1746636688 stripped
@@ -11859,6 +12576,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12333,6 +13056,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -12397,7 +13132,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12444,6 +13179,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12602,7 +13349,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12761,6 +13508,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12909,6 +13668,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000013247005802, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1,
+        type: 3}
+    - target: {fileID: 212000013895445172, guid: 9649789792f9348b09c026ef283f1d13,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9649789792f9348b09c026ef283f1d13, type: 2}
   m_IsPrefabParent: 0
@@ -12955,6 +13726,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -13088,8 +13865,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: b5c0ea030df834a57a283931ba04e3fe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &1927023677
@@ -13153,7 +13930,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b382a6799064508b93f36f4b6fbfb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13383,6 +14160,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13485,6 +14268,48 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000010830935098, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614,
+        type: 3}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212000013906481994, guid: 0399eb574f40d466c85e1a148f7c32b8,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0399eb574f40d466c85e1a148f7c32b8, type: 2}
   m_IsPrefabParent: 0
@@ -13756,6 +14581,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13807,6 +14638,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -13970,6 +14807,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -14016,6 +14859,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14341,8 +15190,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d5a50eceba317ff43ae1f4eeb12b97c5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &2140996981
