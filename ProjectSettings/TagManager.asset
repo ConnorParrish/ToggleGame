@@ -8,6 +8,7 @@ TagManager:
   - BlackPlatform
   - Spike
   - Trampoline
+  - Reverse
   layers:
   - Default
   - TransparentFX
