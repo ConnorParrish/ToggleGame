@@ -5,15 +5,15 @@ using System.Collections;
 public class TrackerScript : MonoBehaviour {
 
 	public Transform startBlock;
-	public Transform endBlock;
+	public Transform endPoint;
 	public Slider progBar;
 
 	// Use this for initialization
 	void Start () {
 		Debug.Log(startBlock.position);
-		Debug.Log(endBlock.position);
+		Debug.Log(endPoint.position);
 
-		progBar.maxValue = endBlock.position.x - startBlock.position.x;
+		progBar.maxValue = endPoint.position.x - startBlock.position.x;
 
 	}
 	
