@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
@@ -12,6 +13,8 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isDead = false;
 	public bool isWhite = true;
     public int bounceMag;
+    public Transform endPoint;
+    public Text CoinText;
 
     public Camera playerCamera;
 
@@ -19,10 +22,10 @@ public class PlayerMovement : MonoBehaviour {
     //Animator to cause GameOver
     public Animator GameOver;
 
+    // Creates the players Rigidbody2D for easy access
 	Rigidbody2D rb2d;
-	Material playerMat;
 
-	//loads the animation call script
+	// Loads the animation call script
 	private List<Animator> anim = new List<Animator>();
 	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
@@ -31,64 +34,63 @@ public class PlayerMovement : MonoBehaviour {
 		GetComponentsInChildren<Animator> (true, anim);
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);
 		CurrentLevelInt = Application.loadedLevel;
-        playerMat = GetComponent<Renderer>().material;
-		rb2d = GetComponent<Rigidbody2D>();
-		//playerMat.color = Color.red;
+        rb2d = GetComponent<Rigidbody2D>();
 		rb2d.velocity = new Vector2(Speed, 0);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
-
-		if (rb2d.position.y <= -10){
-			isDead = true;
+		// if the player reaches the end point of the level
+		if (transform.position.x >= endPoint.position.x){
+			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
+			Debug.Log("You've made it, you beautiful bastard");
+			// anim.Stop();
 		}
-		if (isDead){
-            Debug.Log("Died");
-			rb2d.velocity = rb2d.velocity*(0);
+		else {
+			// Keeps the velocity constant on each frame
+			rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
 
-            //This code added to trigger Gameover Anim.
-            GameOver.SetTrigger("isDead");
-		}
+			// This is the kill-floor
+			if (rb2d.position.y <= -10){
+				isDead = true;
+			}
 
-		//Jumping
-		if (Input.GetButtonDown("Jump") && isGrounded){
-			//print("Jumping");
-			rb2d.AddForce(Vector2.up * JumpStrength);
-			isGrounded = false;
-			foreach (Animator animator in anim){
-				animator.SetBool ("isGrounded", isGrounded);
+			// Called on Death (from kill floor or debug 'D' key)
+			if (isDead){
+	            Debug.Log("Died");
+				rb2d.velocity = rb2d.velocity*(0);
+
+	            // This code added to trigger Gameover Anim.
+	            GameOver.SetTrigger("isDead");
+			}
+
+			// Jumping
+			if (Input.GetButtonDown("Jump") && isGrounded){
+				rb2d.AddForce(Vector2.up * JumpStrength);
+				isGrounded = false;
+				foreach (Animator animator in anim){
+					animator.SetBool ("isGrounded", isGrounded);
+				}
+			}
+
+			// Code used to swap animations mid frame
+			if (Input.GetKeyDown(KeyCode.Q)){
+
+				 // Toggles the sprite renderers so the animations stay in sync
+				foreach (SpriteRenderer sprites in spriteRend){
+					sprites.enabled = !sprites.enabled;
+				}			
 			}
 		}
 
-		//Mid-air swapping
-		if (Input.GetKeyDown(KeyCode.Q) && isGrounded == false) {
-			if (isWhite) {
-				//animController.setAnimation ("jump_white");
-			} else if (!isWhite) {
-				//animController.setAnimation ("jump_black");
-			}
-		}
-
-		if (Input.GetKeyDown(KeyCode.Q)){
-			isWhite = !isWhite;
-			//anim.SetBool("isWhite", isWhite);
-			foreach (SpriteRenderer sprites in spriteRend){
-				sprites.enabled = !sprites.enabled;
-			}
-			foreach (Animator anims in anim){
-				//anims.enabled = !anims.enabled;
-			}
-		}
-
+		// Debug level reset
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(CurrentLevelInt);
         }
 
 
-        //This is test code to kill character and view GameOver screen.
+        // Debug death key
         if (Input.GetKeyDown(KeyCode.D))
         {
             isDead = true;
@@ -98,8 +100,8 @@ public class PlayerMovement : MonoBehaviour {
     }
 
 	void OnCollisionEnter2D(Collision2D blockCollision){
-        //Debug.Log("blockCollision.gameObject.tag = " + blockCollision.gameObject.tag);
-		if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
+        // If the player hits a white or black platform, it affects the isGrounded condition for the animator
+        if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
 			isGrounded = true;
 
 			foreach (Animator anims in anim){
@@ -107,12 +109,20 @@ public class PlayerMovement : MonoBehaviour {
 			}            
 		}
 
+		if (blockCollision.gameObject.tag == "Coin"){
+			blockCollision.gameObject.SetActive(false);
+			Debug.Log("We touched :O");
+			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
+			CoinText.text = System.Convert.ToString(currentCoin);
+		}
+
+		// Kills the player on collision with spikes
 		if (blockCollision.gameObject.tag == "Spike"){
 			Debug.Log("Fuck, that hurt");
 			isDead = true;
 		}
 
-        //Code to reverse player, works both directions from all directions.
+        // Code to reverse player, works both directions from all directions.
         if (blockCollision.gameObject.tag == "Reverse")
         {
             Debug.Log("Reverse");
@@ -121,7 +131,7 @@ public class PlayerMovement : MonoBehaviour {
 
         }
 
-        //Code for trampoline collision, hits player upward. 
+        // Code for trampoline collision, hits player upward. 
         if (blockCollision.gameObject.tag == "Trampoline")
         {
             Debug.Log("Jumped");

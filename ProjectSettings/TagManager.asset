@@ -9,6 +9,7 @@ TagManager:
   - Spike
   - Trampoline
   - Reverse
+  - Coin
   layers:
   - Default
   - TransparentFX
