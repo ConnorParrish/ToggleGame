@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isWhite = true;
     public int bounceMag;
     public Transform endPoint;
+    public Text CoinText;
 
     public Camera playerCamera;
 
@@ -105,6 +107,13 @@ public class PlayerMovement : MonoBehaviour {
 			foreach (Animator anims in anim){
 				anims.SetBool ("isGrounded", isGrounded);
 			}            
+		}
+
+		if (blockCollision.gameObject.tag == "Coin"){
+			blockCollision.gameObject.SetActive(false);
+			Debug.Log("We touched :O");
+			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
+			CoinText.text = System.Convert.ToString(currentCoin);
 		}
 
 		// Kills the player on collision with spikes

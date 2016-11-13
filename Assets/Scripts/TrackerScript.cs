@@ -10,9 +10,6 @@ public class TrackerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log(startBlock.position);
-		Debug.Log(endPoint.position);
-
 		progBar.maxValue = endPoint.position.x - startBlock.position.x;
 
 	}

@@ -56,7 +56,6 @@ GameObject:
   - 50: {fileID: 50000011590954504}
   - 114: {fileID: 114000012532621776}
   - 252: {fileID: 252000010924266078}
-  - 114: {fileID: 114000013919975992}
   - 58: {fileID: 58000012744717770}
   - 212: {fileID: 212000013132895800}
   - 114: {fileID: 114000011228643672}
@@ -185,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startBlock: {fileID: 0}
-  endBlock: {fileID: 0}
+  endPoint: {fileID: 0}
   progBar: {fileID: 0}
 --- !u!114 &114000012532621776
 MonoBehaviour:
@@ -204,19 +203,9 @@ MonoBehaviour:
   isDead: 0
   isWhite: 1
   bounceMag: 1750
+  endPoint: {fileID: 0}
   playerCamera: {fileID: 0}
   GameOver: {fileID: 0}
---- !u!114 &114000013919975992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014224718718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e2c3ce0f75914a78acdb77e6b04a63f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &212000010720168712
 SpriteRenderer:
   m_ObjectHideFlags: 1
