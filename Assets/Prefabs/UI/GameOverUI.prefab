@@ -338,6 +338,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelToLoad: 4c6576656c30
   IsExit: 1
+  UnHighLightSprite: {fileID: 0}
+  HighLightSprite: {fileID: 0}
 --- !u!212 &212000010597001760
 SpriteRenderer:
   m_ObjectHideFlags: 1
