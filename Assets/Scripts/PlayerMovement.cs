@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour {
     public int bounceMag;
     public Transform endPoint;
     public Text CoinText;
+    public bool reversed;
 
     public Camera playerCamera;
 
@@ -126,6 +127,7 @@ public class PlayerMovement : MonoBehaviour {
         if (blockCollision.gameObject.tag == "Reverse")
         {
             Debug.Log("Reverse");
+            reversed = !reversed;
             Speed = -Speed;
             this.transform.localScale = new Vector3(-this.transform.localScale.x, this.transform.localScale.y);
 
