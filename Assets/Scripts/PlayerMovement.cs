@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour {
             isDead = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("MainMenu");
         }
