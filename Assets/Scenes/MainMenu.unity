@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450c5ebb8247f724da9b19b66f9b5fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Level1
+  LevelToLoad: Level 1-1
   IsExit: 0
   UnHighLightSprite: {fileID: 21300000, guid: 855140c08b30833449ab825a347dc6bd, type: 3}
   HighLightSprite: {fileID: 21300000, guid: 68b6555f26a260a47b0e3c5516ed4473, type: 3}
