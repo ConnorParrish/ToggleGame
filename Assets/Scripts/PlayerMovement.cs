@@ -48,7 +48,6 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-<<<<<<< HEAD
 
         //This code handles stop motion == death.
         currentPosition = transform.position;
@@ -65,13 +64,11 @@ public class PlayerMovement : MonoBehaviour {
 
 
 
-=======
 		if (isDead){
 			foreach (Animator anims in anim){
 				anims.SetTrigger("isDead");
 			}
 		}
->>>>>>> dcc3dae5902aabcee99bd89ec4f6fa6897d63776
 		// if the player reaches the end point of the level
 		if (transform.position.x >= endPoint.position.x){
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
