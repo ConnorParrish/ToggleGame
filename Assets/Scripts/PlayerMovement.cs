@@ -30,17 +30,40 @@ public class PlayerMovement : MonoBehaviour {
 	private List<Animator> anim = new List<Animator>();
 	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
-	// Use this for initialization
-	void Start () {
+    //Position variables to handle stopping == death
+    Vector2 prevPosition;
+    Vector2 bufferPosition;
+    Vector2 currentPosition;
+
+
+    // Use this for initialization
+    void Start () {
 		GetComponentsInChildren<Animator> (true, anim);
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);
 		CurrentLevelInt = Application.loadedLevel;
         rb2d = GetComponent<Rigidbody2D>();
 		rb2d.velocity = new Vector2(Speed, 0);
+        prevPosition = new Vector2(-1,-1);
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+        //This code handles stop motion == death.
+        currentPosition = transform.position;
+        if(prevPosition == currentPosition)
+        {
+            //Debug.Log("Position code didn't work");
+            //Debug.Log(prevPosition.ToString() + "==" + currentPosition.ToString());
+            isDead = true;
+        } else
+        {            
+            prevPosition = bufferPosition;
+            bufferPosition = currentPosition;
+        }
+
+
+
 		if (isDead){
 			foreach (Animator anims in anim){
 				anims.SetTrigger("isDead");
@@ -50,8 +73,9 @@ public class PlayerMovement : MonoBehaviour {
 		if (transform.position.x >= endPoint.position.x){
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
 			Debug.Log("You've made it, you beautiful bastard");
-			// anim.Stop();
-		}
+            SceneManager.LoadScene("MainMenu");
+            // anim.Stop();
+        }
 		else {
 			// Keeps the velocity constant on each frame
 			rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
@@ -102,6 +126,11 @@ public class PlayerMovement : MonoBehaviour {
             isDead = true;
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+
 
     }
 
@@ -130,6 +159,11 @@ public class PlayerMovement : MonoBehaviour {
 			// 	anims.SetTrigger("isDead");
 			// }
 		}
+
+        if (blockCollision.gameObject.tag == "Speed2x")
+        {
+            Speed = Speed * 2;
+        }
 
         // Code to reverse player, works both directions from all directions.
         if (blockCollision.gameObject.tag == "Reverse")

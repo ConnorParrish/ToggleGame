@@ -10,6 +10,7 @@ TagManager:
   - Trampoline
   - Reverse
   - Coin
+  - Speed2x
   layers:
   - Default
   - TransparentFX
