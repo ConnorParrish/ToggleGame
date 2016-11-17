@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour {
     public Transform endPoint;
     public Text CoinText;
     public bool reversed;
+    public GameObject endConfetti;
 
     public Camera playerCamera;
 
@@ -58,7 +59,8 @@ public class PlayerMovement : MonoBehaviour {
 		if (transform.position.x >= endPoint.position.x){
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
 			Debug.Log("You've made it, you beautiful bastard");
-            SceneManager.LoadScene("MainMenu");
+			endConfetti.SetActive(true);
+            // SceneManager.LoadScene("MainMenu");
             // anim.Stop();
         }
 		else {
