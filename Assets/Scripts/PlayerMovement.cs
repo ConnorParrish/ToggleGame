@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isGrounded = false;
 	public bool isDead = false;
 	public bool isWhite = true;
+	public bool confetti = false;
     public int bounceMag;
     public Transform endPoint;
     public Text CoinText;
