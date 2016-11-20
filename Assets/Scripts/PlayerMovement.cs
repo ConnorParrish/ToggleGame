@@ -12,10 +12,12 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isGrounded = false;
 	public bool isDead = false;
 	public bool isWhite = true;
+	public bool confetti = false;
     public int bounceMag;
     public Transform endPoint;
     public Text CoinText;
     public bool reversed;
+    public GameObject endConfetti;
 
     public Camera playerCamera;
 
@@ -48,22 +50,6 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        //This code handles stop motion == death.
-        currentPosition = transform.position;
-        if(prevPosition == currentPosition)
-        {
-            //Debug.Log("Position code didn't work");
-            //Debug.Log(prevPosition.ToString() + "==" + currentPosition.ToString());
-            isDead = true;
-        } else
-        {            
-            prevPosition = bufferPosition;
-            bufferPosition = currentPosition;
-        }
-
-
-
 		if (isDead){
 			foreach (Animator anims in anim){
 				anims.SetTrigger("isDead");
@@ -73,7 +59,8 @@ public class PlayerMovement : MonoBehaviour {
 		if (transform.position.x >= endPoint.position.x){
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
 			Debug.Log("You've made it, you beautiful bastard");
-            SceneManager.LoadScene("MainMenu");
+			endConfetti.SetActive(true);
+            // SceneManager.LoadScene("MainMenu");
             // anim.Stop();
         }
 		else {
@@ -134,6 +121,13 @@ public class PlayerMovement : MonoBehaviour {
 
     }
 
+    void OnTriggerEnter2D(Collider2D col){
+    	Debug.Log("We touched :O");
+		int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
+		CoinText.text = System.Convert.ToString(currentCoin);
+		col.gameObject.SetActive(false);
+    }
+
 	void OnCollisionEnter2D(Collision2D blockCollision){
         // If the player hits a white or black platform, it affects the isGrounded condition for the animator
         if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
@@ -142,13 +136,6 @@ public class PlayerMovement : MonoBehaviour {
 			foreach (Animator anims in anim){
 				anims.SetBool ("isGrounded", isGrounded);
 			}            
-		}
-
-		if (blockCollision.gameObject.tag == "Coin"){
-			blockCollision.gameObject.SetActive(false);
-			Debug.Log("We touched :O");
-			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
-			CoinText.text = System.Convert.ToString(currentCoin);
 		}
 
 		// Kills the player on collision with spikes

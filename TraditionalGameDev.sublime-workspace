@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"spri",
+				"spriteRend"
+			],
+			[
 				"Image",
 				"ImageEditor.SpriteGUI()"
 			],
@@ -92,20 +96,81 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "/C/Users/Heimd/OneDrive/Documents/Development/Unity/DungeonTesting/Assets/Footman/Script/playerControl.cs",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/PlayerMovement.cs",
+			"settings":
+			{
+				"buffer_size": 4394,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/CameraController.cs",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/TrackerScript.cs",
+			"settings":
+			{
+				"buffer_size": 417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Managers/BrickManager.cs",
+			"settings":
+			{
+				"buffer_size": 1611,
 				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 368.0,
+		"last_filter": "parem",
 		"selected_items":
 		[
+			[
+				"parem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"packin	",
+				"Package Control: Install Package"
+			],
+			[
+				"packr",
+				"Package Control: Remove Package"
+			],
+			[
+				"packrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac rem",
+				"Package Control: Remove Package"
+			],
 			[
 				"packin",
 				"Package Control: Install Package"
@@ -129,10 +194,6 @@
 			[
 				"c#",
 				"Set Syntax: Unity C#"
-			],
-			[
-				"packin	",
-				"Package Control: Install Package"
 			],
 			[
 				"package insta",
@@ -453,6 +514,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Scenes/Level 1-3.unity",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Scripts/PlayerMovement.cs",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/TrackerScript.cs",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Scripts/PlayerProgressSlider.cs",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/ProgressBarManager.cs",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Scripts/MainMenuUIController.cs",
+		"/C/Users/Heimd/AppData/Roaming/Sublime Text 3/Packages/User/UnityC#.sublime-settings",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Scripts/Managers/BrickManager.cs",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Editor/BlockBuilderWizard.cs",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/ToggleGame/Assets/Editor/BlockBuilderTool.cs",
+		"/C/Users/Heimd/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Heimd/OneDrive/Documents/Development/Unity/UnityEditorTesting/Assets/Scripts/Character.cs",
+		"/C/Users/Heimd/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/D/DiscordBots/DS3_U/Emerald Herald/emerald.py",
 		"/C/Users/Public/Documents/Unity Projects/TraditionalGameDev/Assets/Scripts/BrickManager.cs",
 		"/C/Users/Public/Documents/Unity Projects/TraditionalGameDev/Assets/Scripts/PlayerMovement3D.cs",
@@ -567,20 +641,7 @@
 		"/D/DiscordBots/RunescapeNews/Procfile.windows",
 		"/D/Python34/Lib/site-packages/easy_install.py",
 		"/D/Python34/Scripts/pip3.4.exe",
-		"/D/gif2fb-master/gif2fb-master/app/app.py",
-		"/D/Users/Connor/Documents/The Witcher 3/input.settings",
-		"/G/03 - LInked LIst, Quicksort.py",
-		"/D/Users/Connor/Desktop/2420/03 - LInked LIst, Quicksort.py",
-		"/G/assignment2.py",
-		"/D/Users/Connor/Documents/The Witcher 3/input.2.settings",
-		"/D/Users/Connor/Documents/The Witcher 3/input.Day1.settings",
-		"/D/Users/Connor/Desktop/2420/03 - LInked LIst, Quicksor2t.py",
-		"/D/extralifehelper/ExtraLifeHelperWrapper.html",
-		"/D/Users/Connor/Documents/Hw03 linked list_Geoffrey Sutyak-1.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/zombie.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/revolver.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/player.py",
-		"/D/Users/Connor/Google Drive/Utah '14-'15/EAE 1410/EAE 1410 final project_/CODE RELATED/classes/main.py"
+		"/D/gif2fb-master/gif2fb-master/app/app.py"
 	],
 	"find":
 	{
@@ -599,6 +660,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Player",
+			"camera",
+			"endBlock",
+			"playerMat",
+			";\n",
+			"Anim",
+			"anim",
+			"snippet",
 			"myRigidbody2D",
 			"tag",
 			"currentWeapon",
@@ -718,15 +787,7 @@
 			"textsurf",
 			"SUIT",
 			"suit",
-			"0",
-			"drawCards",
-			"gDeck",
-			"11",
-			"cardSurfNum",
-			"CARDSURF_1",
-			"cardSurfNum",
-			"CARDSURF_1",
-			"100"
+			"0"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -745,15 +806,491 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/C/Users/Heimd/OneDrive/Documents/Development/Unity/DungeonTesting/Assets/Footman/Script/playerControl.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1931,
+								1931
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1949,
+										1950
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1894,
+										1895
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 935.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/PlayerMovement.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1187,
+								1187
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1200,
+										1201
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1177,
+										1178
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 7.0,
+						"translation.y": 2002.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/CameraController.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										740,
+										741
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										92,
+										93
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Scripts/TrackerScript.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										314,
+										315
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										244,
+										245
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Scripts/Managers/BrickManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
 						"regions":
 						{
 						},
@@ -767,7 +1304,6 @@
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"auto_name": "",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -786,69 +1322,70 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 186.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -897,6 +1434,11 @@
 	{
 		"height": 122.0
 	},
+	"output.variable_get":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "",
 	"project": "",
 	"replace":
 	{
@@ -906,6 +1448,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -922,6 +1465,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -934,6 +1478,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
