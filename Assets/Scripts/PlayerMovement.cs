@@ -47,9 +47,23 @@ public class PlayerMovement : MonoBehaviour {
 		rb2d.velocity = new Vector2(Speed, 0);
         prevPosition = new Vector2(-1,-1);
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    IEnumerator LongJump()
+    {
+        float prevSpeed = Speed;
+
+        Speed = Speed * 2;
+        while (!isGrounded) {
+            yield return null;
+        }
+
+        Debug.Log("Jack Shit");
+
+        Speed = prevSpeed;
+    }
+
+    // Update is called once per frame
+    void Update () {
 		if (isDead){
 			foreach (Animator anims in anim){
 				anims.SetTrigger("isDead");
@@ -173,7 +187,22 @@ public class PlayerMovement : MonoBehaviour {
                 animator.SetBool("isGrounded", isGrounded);
             }
         }
-        //Code for reverse block
-        
-	}
+
+        //Code for long jump
+        if (blockCollision.gameObject.tag == "LongJump")
+        {
+            Debug.Log("Longed");
+
+            rb2d.AddForce(Vector2.right * bounceMag);
+            rb2d.AddForce(Vector2.up * bounceMag);
+            isGrounded = false;
+            foreach (Animator animator in anim)
+            {
+                animator.SetBool("isGrounded", isGrounded);
+            }
+
+            StartCoroutine(LongJump());
+        }
+
+    }
 }

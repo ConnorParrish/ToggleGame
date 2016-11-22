@@ -11,6 +11,7 @@ TagManager:
   - Reverse
   - Coin
   - Speed2x
+  - LongJump
   layers:
   - Default
   - TransparentFX
