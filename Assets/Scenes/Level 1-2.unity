@@ -3884,6 +3884,11 @@ Prefab:
       propertyPath: startBlock
       value: 
       objectReference: {fileID: 55640525}
+    - target: {fileID: 114000012532621776, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: endConfetti
+      value: 
+      objectReference: {fileID: 1774408486}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
   m_IsPrefabParent: 0
@@ -12236,6 +12241,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6b3a0850e7818b4c84c615a31e66b70, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1774408486 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010341185362, guid: c6b3a0850e7818b4c84c615a31e66b70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1774408485}
 --- !u!1 &1776269394
 GameObject:
   m_ObjectHideFlags: 0
