@@ -49,7 +49,7 @@ public class BrickManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Q)){
+		if (Input.GetKeyDown(KeyCode.Q) || ((Input.touchCount == 1) && (Input.GetTouch(0).phase == TouchPhase.Began) && Input.touches[0].position.x > Screen.width/2)){
 			swapState(WhitePlatforms);
 			swapState(BlackPlatforms);
 			StartCoroutine(waitpls());

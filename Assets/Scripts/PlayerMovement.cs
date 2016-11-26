@@ -17,7 +17,10 @@ public class PlayerMovement : MonoBehaviour {
     public Transform endPoint;
     public Text CoinText;
     public bool reversed;
+    public bool soundHooks;
     public GameObject endConfetti;
+
+    public AudioSource soundEffectSource;
 
     public Camera playerCamera;
 
@@ -71,6 +74,9 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		// if the player reaches the end point of the level
 		if (transform.position.x >= endPoint.position.x){
+			if (soundHooks){
+				soundEffectSource.Play();
+			}
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
 			Debug.Log("You've made it, you beautiful bastard");
 			endConfetti.SetActive(true);
@@ -83,6 +89,9 @@ public class PlayerMovement : MonoBehaviour {
 
 			// This is the kill-floor
 			if (rb2d.position.y <= -10){
+				if (soundHooks){
+					soundEffectSource.Play();
+				}
 				isDead = true;
 			}
 
@@ -95,8 +104,11 @@ public class PlayerMovement : MonoBehaviour {
 	            GameOver.SetTrigger("isDead");
 			}
 
-			// Jumping
-			if (Input.GetButtonDown("Jump") && isGrounded){
+			// Jumping (if tapped on the left side of the screen)
+			if ((Input.GetButtonDown("Jump") || ((Input.touchCount == 1) && Input.touches[0].position.x < Screen.width/2)) && isGrounded){
+				if (soundHooks){
+					soundEffectSource.Play();
+				}
 				rb2d.AddForce(Vector2.up * JumpStrength);
 				isGrounded = false;
 				foreach (Animator animator in anim){
@@ -104,9 +116,13 @@ public class PlayerMovement : MonoBehaviour {
 				}
 			}
 
-			// Code used to swap animations mid frame
-			if (Input.GetKeyDown(KeyCode.Q)){
+			// Code used to swap animations mid frame (if tapped on the right side of the screen)
+			if (Input.GetKeyDown(KeyCode.Q) || ((Input.touchCount == 1) && (Input.GetTouch(0).phase == TouchPhase.Began) && Input.touches[0].position.x > Screen.width/2)){
+				if (soundHooks){
+					soundEffectSource.Play();
+				}
 
+				isWhite = !isWhite;
 				 // Toggles the sprite renderers so the animations stay in sync
 				foreach (SpriteRenderer sprites in spriteRend){
 					sprites.enabled = !sprites.enabled;
@@ -114,9 +130,12 @@ public class PlayerMovement : MonoBehaviour {
 			}
 		}
 
-		// Debug level reset
-        if (Input.GetKeyDown(KeyCode.R))
+		// Debug level reset (if tapped on the bottom half of the screen while dead)
+        if (Input.GetKeyDown(KeyCode.R) || ((Input.touchCount == 1) && Input.touches[0].position.y < Screen.height/2) && isDead)
         {
+			if (soundHooks){
+				soundEffectSource.Play();
+			}
             SceneManager.LoadScene(CurrentLevelInt);
         }
 
@@ -124,11 +143,17 @@ public class PlayerMovement : MonoBehaviour {
         // Debug death key
         if (Input.GetKeyDown(KeyCode.D))
         {
+        	if (soundHooks){
+				soundEffectSource.Play();
+			}
             isDead = true;
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+        	if (soundHooks){
+				soundEffectSource.Play();
+			}
             SceneManager.LoadScene("MainMenu");
         }
 
@@ -144,7 +169,11 @@ public class PlayerMovement : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D blockCollision){
         // If the player hits a white or black platform, it affects the isGrounded condition for the animator
-        if (blockCollision.gameObject.tag == "WhitePlatform" || blockCollision.gameObject.tag == "BlackPlatform"){
+        if ((blockCollision.gameObject.tag == "WhitePlatform" && isWhite) || (blockCollision.gameObject.tag == "BlackPlatform" && !isWhite)){
+			// if (soundHooks){
+			// 	soundEffectSource.Play();
+			// }
+
 			isGrounded = true;
 
 			foreach (Animator anims in anim){
@@ -153,7 +182,7 @@ public class PlayerMovement : MonoBehaviour {
 		}
 
 		// Kills the player on collision with spikes
-		if (blockCollision.gameObject.tag == "Spike"){
+		if (blockCollision.gameObject.tag == "Spike" || (blockCollision.gameObject.tag == "WhitePlatform" && !isWhite) || (blockCollision.gameObject.tag == "BlackPlatform" && isWhite)){
 			Debug.Log("Fuck, that hurt");
 			isDead = true;
 			// for (anims in anim){
@@ -169,6 +198,9 @@ public class PlayerMovement : MonoBehaviour {
         // Code to reverse player, works both directions from all directions.
         if (blockCollision.gameObject.tag == "Reverse")
         {
+        	if (soundHooks){
+				soundEffectSource.Play();
+			}
             Debug.Log("Reverse");
             reversed = !reversed;
             Speed = -Speed;
@@ -179,6 +211,9 @@ public class PlayerMovement : MonoBehaviour {
         // Code for trampoline collision, hits player upward. 
         if (blockCollision.gameObject.tag == "Trampoline")
         {
+        	if (soundHooks){
+				soundEffectSource.Play();
+			}
             Debug.Log("Jumped");
             rb2d.AddForce(Vector2.up * bounceMag);
             isGrounded = false;
@@ -191,6 +226,9 @@ public class PlayerMovement : MonoBehaviour {
         //Code for long jump
         if (blockCollision.gameObject.tag == "LongJump")
         {
+        	if (soundHooks){
+				soundEffectSource.Play();
+			}
             Debug.Log("Longed");
 
             rb2d.AddForce(Vector2.right * bounceMag);

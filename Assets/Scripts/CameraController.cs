@@ -12,6 +12,9 @@ public class CameraController : MonoBehaviour {
 		offset = new Vector3(3, 0, -10);
 		reversedOffset = new Vector3(-3,0,-10);
 		playerMovement = Player.GetComponent<PlayerMovement>();
+
+		// Turns camera landscape mode for mobile
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
 		//GameObject.transform.x 
 	}
 	
