@@ -20,9 +20,9 @@ public class CameraController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!playerMovement.reversed){
+		if (!playerMovement.isReversed){
 			transform.position = playerMovement.transform.position + offset;		
-		} else if (playerMovement.reversed){
+		} else if (playerMovement.isReversed){
 			Debug.Log("woah it worked");
 			transform.position = playerMovement.transform.position + reversedOffset;
 		}

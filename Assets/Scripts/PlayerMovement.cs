@@ -8,25 +8,21 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float Speed;
 	public float JumpStrength;
+    public int bounceMag;
     private int CurrentLevelInt;
+    
 	public bool isGrounded = false;
+    public bool isReversed;
 	public bool isDead = false;
 	public bool isWhite = true;
-	public bool confetti = false;
-    public int bounceMag;
+    public bool soundHooks;
+    public bool isFinished = false;
+
     public Transform endPoint;
     public Text CoinText;
-    public bool reversed;
-    public bool soundHooks;
-    public GameObject endConfetti;
-
-    public AudioSource soundEffectSource;
-
-    public Camera playerCamera;
-
-
-    //Animator to cause GameOver
-    public Animator GameOver;
+    public GameObject endConfetti; // The levels end confetti
+    public AudioSource soundEffectSource; // Sound effects, babyyy
+    public Animator GameOver; // Animator used in GameOver
 
     // Creates the players Rigidbody2D for easy access
 	Rigidbody2D rb2d;
@@ -43,11 +39,11 @@ public class PlayerMovement : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		GetComponentsInChildren<Animator> (true, anim);
-		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);
-		CurrentLevelInt = Application.loadedLevel;
-        rb2d = GetComponent<Rigidbody2D>();
-		rb2d.velocity = new Vector2(Speed, 0);
+		GetComponentsInChildren<Animator> (true, anim); // Grabs all animators (enabled or disabled)
+		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);	//Grabs all Sprite Renderers (enabled or disabled)
+		CurrentLevelInt = Application.loadedLevel; // Grabs the current level
+        rb2d = GetComponent<Rigidbody2D>(); // Caches the players Rigidbody2D
+		rb2d.velocity = new Vector2(Speed, 0); //Gives it the initial speed
         prevPosition = new Vector2(-1,-1);
 	}
 
@@ -67,19 +63,29 @@ public class PlayerMovement : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+    	// If the player is dead, start the pop animation
 		if (isDead){
 			foreach (Animator anims in anim){
 				anims.SetTrigger("isDead");
 			}
-		}
-		// if the player reaches the end point of the level
-		if (transform.position.x >= endPoint.position.x){
+		} else if (isFinished) {
 			if (soundHooks){
 				soundEffectSource.Play();
 			}
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
 			Debug.Log("You've made it, you beautiful bastard");
 			endConfetti.SetActive(true);
+
+			// foreach (Animator anims in anim){
+			// 	anims.SetTrigger("isFinished");
+			// }
+		}
+
+		// if the player reaches the end point of the level
+		if (transform.position.x >= endPoint.position.x){
+			isFinished = true;
+
+			
             // SceneManager.LoadScene("MainMenu");
             // anim.Stop();
         }
@@ -149,7 +155,8 @@ public class PlayerMovement : MonoBehaviour {
             isDead = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        // Returns to the main menu (if tapped on the top half of the screen while dead)
+        if (Input.GetKeyDown(KeyCode.Escape) || ((Input.touchCount == 1) && Input.touches[0].position.y > Screen.height/2 && (isDead || isFinished)))
         {
         	if (soundHooks){
 				soundEffectSource.Play();
@@ -161,10 +168,25 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void OnTriggerEnter2D(Collider2D col){
-    	Debug.Log("We touched :O");
-		int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
-		CoinText.text = System.Convert.ToString(currentCoin);
-		col.gameObject.SetActive(false);
+    	// If the player collides with a coin!
+    	if (col.gameObject.tag == "Coin"){
+			Debug.Log("We touched :O");
+			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
+			CoinText.text = System.Convert.ToString(currentCoin);
+			col.gameObject.SetActive(false);
+    	}
+
+    	// If the player runs into the wrong color
+    	if (col.gameObject.tag == "WhitePlatform" && !isWhite){
+    		Debug.Log("Fuck, I'm black, but its white");
+			isDead = true;
+    	}
+
+    	// If the player runs into the wrong color
+    	if (col.gameObject.tag == "BlackPlatform" && isWhite){
+    		Debug.Log("Fuck, I'm white, but its black");
+			isDead = true;
+    	}
     }
 
 	void OnCollisionEnter2D(Collision2D blockCollision){
@@ -185,11 +207,9 @@ public class PlayerMovement : MonoBehaviour {
 		if (blockCollision.gameObject.tag == "Spike" || (blockCollision.gameObject.tag == "WhitePlatform" && !isWhite) || (blockCollision.gameObject.tag == "BlackPlatform" && isWhite)){
 			Debug.Log("Fuck, that hurt");
 			isDead = true;
-			// for (anims in anim){
-			// 	anims.SetTrigger("isDead");
-			// }
 		}
 
+		// Currently unused block prefab that doubles speed
         if (blockCollision.gameObject.tag == "Speed2x")
         {
             Speed = Speed * 2;
@@ -201,8 +221,9 @@ public class PlayerMovement : MonoBehaviour {
         	if (soundHooks){
 				soundEffectSource.Play();
 			}
+
             Debug.Log("Reverse");
-            reversed = !reversed;
+            isReversed = !isReversed;
             Speed = -Speed;
             this.transform.localScale = new Vector3(-this.transform.localScale.x, this.transform.localScale.y);
 

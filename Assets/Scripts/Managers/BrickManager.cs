@@ -30,7 +30,8 @@ public class BrickManager : MonoBehaviour {
 		foreach (GameObject platform in BlackPlatforms){
 			//platform.GetComponent<SpriteRenderer>().sprite = BlackSprite;
 			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().enabled = false;
+				platform.GetComponent<BoxCollider2D>().isTrigger = true;
+				platform.GetComponent<BoxCollider2D>().enabled = true;
 			}
 		}
 	}
@@ -38,7 +39,7 @@ public class BrickManager : MonoBehaviour {
 	void swapState(GameObject[] platformSet){
 		foreach (GameObject platform in platformSet){
 			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().enabled = !platform.GetComponent<BoxCollider2D>().enabled;
+				platform.GetComponent<BoxCollider2D>().isTrigger = !platform.GetComponent<BoxCollider2D>().isTrigger;
 			}
 		}
 	}
