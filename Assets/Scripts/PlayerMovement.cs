@@ -31,10 +31,6 @@ public class PlayerMovement : MonoBehaviour {
 	private List<Animator> anim = new List<Animator>();
 	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
-    //Position variables to handle stopping == death
-    Vector2 prevPosition;
-    Vector2 bufferPosition;
-    Vector2 currentPosition;
 
 
     // Use this for initialization
@@ -44,7 +40,6 @@ public class PlayerMovement : MonoBehaviour {
 		CurrentLevelInt = Application.loadedLevel; // Grabs the current level
         rb2d = GetComponent<Rigidbody2D>(); // Caches the players Rigidbody2D
 		rb2d.velocity = new Vector2(Speed, 0); //Gives it the initial speed
-        prevPosition = new Vector2(-1,-1);
 	}
 
     IEnumerator LongJump()
@@ -98,12 +93,13 @@ public class PlayerMovement : MonoBehaviour {
 				if (soundHooks){
 					soundEffectSource.Play();
 				}
-				isDead = true;
+
+                isDead = true;
 			}
 
 			// Called on Death (from kill floor or debug 'D' key)
 			if (isDead){
-	            Debug.Log("Died");
+	            //Debug.Log("Died");
 				rb2d.velocity = rb2d.velocity*(0);
 
 	            // This code added to trigger Gameover Anim.
@@ -142,6 +138,8 @@ public class PlayerMovement : MonoBehaviour {
 			if (soundHooks){
 				soundEffectSource.Play();
 			}
+            SaveScript.TMD.died();
+            Debug.Log("triggered");
             SceneManager.LoadScene(CurrentLevelInt);
         }
 
@@ -151,7 +149,8 @@ public class PlayerMovement : MonoBehaviour {
         {
         	if (soundHooks){
 				soundEffectSource.Play();
-			}
+            }
+
             isDead = true;
         }
 
@@ -173,19 +172,24 @@ public class PlayerMovement : MonoBehaviour {
 			Debug.Log("We touched :O");
 			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
 			CoinText.text = System.Convert.ToString(currentCoin);
+            SaveScript.TMD.addCoin();            
 			col.gameObject.SetActive(false);
     	}
 
     	// If the player runs into the wrong color
     	if (col.gameObject.tag == "WhitePlatform" && !isWhite){
     		Debug.Log("Fuck, I'm black, but its white");
-			isDead = true;
+
+
+            isDead = true;
     	}
 
     	// If the player runs into the wrong color
     	if (col.gameObject.tag == "BlackPlatform" && isWhite){
     		Debug.Log("Fuck, I'm white, but its black");
-			isDead = true;
+
+
+            isDead = true;
     	}
     }
 
@@ -206,7 +210,9 @@ public class PlayerMovement : MonoBehaviour {
 		// Kills the player on collision with spikes
 		if (blockCollision.gameObject.tag == "Spike" || (blockCollision.gameObject.tag == "WhitePlatform" && !isWhite) || (blockCollision.gameObject.tag == "BlackPlatform" && isWhite)){
 			Debug.Log("Fuck, that hurt");
-			isDead = true;
+
+
+            isDead = true;
 		}
 
 		// Currently unused block prefab that doubles speed
