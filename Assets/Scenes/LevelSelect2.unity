@@ -218,7 +218,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010826654158, guid: 539afeb84d7e0174a910034c1cb04c47, type: 2}
       propertyPath: m_Name
-      value: LevelProgress (1)
+      value: 2-4Progress
       objectReference: {fileID: 0}
     - target: {fileID: 4000012249230116, guid: 539afeb84d7e0174a910034c1cb04c47, type: 2}
       propertyPath: m_LocalScale.x
@@ -494,6 +494,10 @@ Prefab:
         type: 2}
       propertyPath: LevelToShow
       value: Level 2-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010826654158, guid: 539afeb84d7e0174a910034c1cb04c47, type: 2}
+      propertyPath: m_Name
+      value: 2-2Progress
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 539afeb84d7e0174a910034c1cb04c47, type: 2}

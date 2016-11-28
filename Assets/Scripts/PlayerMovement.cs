@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour {
 	public bool isWhite = true;
     public bool soundHooks;
     public bool isFinished = false;
+    public bool diedFlag = true;
 
     public Transform endPoint;
     public Text CoinText;
@@ -63,6 +64,12 @@ public class PlayerMovement : MonoBehaviour {
 			foreach (Animator anims in anim){
 				anims.SetTrigger("isDead");
 			}
+            if(diedFlag)
+            {
+                SaveScript.TMD.died();
+                diedFlag = false;
+            }
+            
 		} else if (isFinished) {
 			if (soundHooks){
 				soundEffectSource.Play();
@@ -138,7 +145,7 @@ public class PlayerMovement : MonoBehaviour {
 			if (soundHooks){
 				soundEffectSource.Play();
 			}
-            SaveScript.TMD.died();
+            //SaveScript.TMD.died();
             //Debug.Log("triggered");
             SceneManager.LoadScene(CurrentLevelInt);
         }

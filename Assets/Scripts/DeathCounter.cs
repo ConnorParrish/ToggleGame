@@ -10,7 +10,7 @@ public class DeathCounter : MonoBehaviour {
         if(SaveScript.TMD != null)
         {
             string num = SaveScript.TMD.noOfDeath.ToString();
-            Debug.Log("TextMesh: " + num);
+            //Debug.Log("TextMesh: " + num);
             TM.text = SaveScript.TMD.noOfDeath.ToString();
         }
     }

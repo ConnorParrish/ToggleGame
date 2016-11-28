@@ -84,7 +84,7 @@ public class ToggleMetaData
         //deathFlag = !deathFlag;
 
         noOfDeath++;
-        Debug.Log(noOfDeath);
+        //Debug.Log(noOfDeath);
     }
 
     public void addCoin()
@@ -165,6 +165,42 @@ public class ToggleMetaData
 
             default:
                 return "Error, invalid level";
+        }
+    }
+
+
+    public int coinProgress(string displayLevel)
+    {
+        switch (displayLevel)
+        {
+            case ("Level 0-0"):
+                return coins0_0;
+            case ("Level 1-1"):
+                return coins1_1;
+
+            case ("Level 1-2"):
+                return coins1_2;
+
+            case ("Level 1-3"):
+                return coins1_3;
+
+            case ("Level 1-4"):
+                return coins1_4;
+
+            case ("Level 2-2"):
+                return coins2_2;
+
+            case ("Level 2-3"):
+                return coins2_3;
+
+            case ("Level 2-4"):
+                return coins2_4;
+
+            case ("Level 3-1"):
+                return coins3_1;
+
+            default:
+                return 100;
         }
     }
 

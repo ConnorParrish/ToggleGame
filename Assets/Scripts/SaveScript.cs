@@ -29,7 +29,7 @@ public class SaveScript : MonoBehaviour
         if (currentLevel != Application.loadedLevelName)
         {
 
-            Debug.Log("Level Change Detected: " + currentLevel + "!=" + Application.loadedLevelName);
+            //Debug.Log("Level Change Detected: " + currentLevel + "!=" + Application.loadedLevelName);
             save();
         }
         currentLevel = Application.loadedLevelName;
@@ -53,7 +53,7 @@ public class SaveScript : MonoBehaviour
     {
         if (currentLevel != Application.loadedLevelName)
         {
-            Debug.Log("Level Change Detected");
+            //Debug.Log("Level Change Detected");
             save();
         }
         currentLevel = Application.loadedLevelName;
@@ -67,7 +67,7 @@ public class SaveScript : MonoBehaviour
     /// <param name="TMD"></param>
     public static void save()
     {
-        Debug.Log("Saved");
+        //Debug.Log("Saved");
         //Create all the stuff needed to write a file.
         string dataPath = string.Format("{0}/ToggleSave.dat", Application.persistentDataPath);
         BinaryFormatter binaryFormatter = new BinaryFormatter();
@@ -94,7 +94,7 @@ public class SaveScript : MonoBehaviour
         {
             Debug.Log("Failed to Save: " + e.Message);
         }
-        Debug.Log("Stopped Saving");
+        //Debug.Log("Stopped Saving");
     }
 
     /// <summary>
@@ -104,7 +104,7 @@ public class SaveScript : MonoBehaviour
     /// <returns></returns>
     public static ToggleMetaData Load()
     {
-        Debug.Log("Loaded");
+        //Debug.Log("Loaded");
         //Find the file path
         string dataPath = string.Format("{0}/ToggleSave.dat", Application.persistentDataPath);
 
@@ -115,18 +115,18 @@ public class SaveScript : MonoBehaviour
             //If the file exists then write it to TMD
             if (File.Exists(dataPath))
             {
-                Debug.Log("File made");
+                //Debug.Log("File made");
                 BinaryFormatter binaryFormatter = new BinaryFormatter();
                 FileStream fileStream = File.Open(dataPath, FileMode.Open);
                 
                 TMD = (ToggleMetaData)binaryFormatter.Deserialize(fileStream);
                 fileStream.Close();
-                Debug.Log(TMD.noOfDeath);
+                //Debug.Log(TMD.noOfDeath);
 
                 //If it doesn't exist then create a newgame and save it.
             } else
             {
-                Debug.Log("New Game");
+                //Debug.Log("New Game");
                 TMD.newGame();
                 save();
             }            
@@ -136,7 +136,7 @@ public class SaveScript : MonoBehaviour
             Debug.Log("Failed to Load: " + e.Message);
         }
 
-        Debug.Log("Stopped Loading");
+        //Debug.Log("Stopped Loading");
         return TMD;
     }
 
