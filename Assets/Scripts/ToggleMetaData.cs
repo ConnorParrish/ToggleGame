@@ -49,7 +49,7 @@ public class ToggleMetaData
 
     public void newGame()
     {
-        Debug.Log("New Game Triggered");
+        //Debug.Log("New Game Triggered");
         coins0_0 = 0;
         coins1_1 = 0;
         coins1_2 = 0;
