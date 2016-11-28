@@ -6,9 +6,12 @@ using System;
 
 public class SaveScript : MonoBehaviour
 {
-    public static string currentLevel;
+    public static string currentLevel = "MainMenu";
+
     public static SaveScript Instance { get; private set; }
+
     public static ToggleMetaData TMD;
+    //private bool firstTimeFlag = true;
 
 
     // Use this for initialization
@@ -23,10 +26,20 @@ public class SaveScript : MonoBehaviour
     {
         Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
+        if (currentLevel != Application.loadedLevelName)
+        {
+
+            Debug.Log("Level Change Detected: " + currentLevel + "!=" + Application.loadedLevelName);
+            save();
+        }
+        currentLevel = Application.loadedLevelName;
+
         //Check if any other instance, 
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject);
+            //Debug.Log("Another instance detected, " + SaveScript.TMD.noOfDeath + " destroyed");
+            
+            Destroy(this.gameObject);
         }
 
         Instance = this;
@@ -40,6 +53,7 @@ public class SaveScript : MonoBehaviour
     {
         if (currentLevel != Application.loadedLevelName)
         {
+            Debug.Log("Level Change Detected");
             save();
         }
         currentLevel = Application.loadedLevelName;
@@ -53,10 +67,13 @@ public class SaveScript : MonoBehaviour
     /// <param name="TMD"></param>
     public static void save()
     {
+        Debug.Log("Saved");
         //Create all the stuff needed to write a file.
         string dataPath = string.Format("{0}/ToggleSave.dat", Application.persistentDataPath);
         BinaryFormatter binaryFormatter = new BinaryFormatter();
         FileStream fileStream;
+
+
 
         try
         {
@@ -69,7 +86,7 @@ public class SaveScript : MonoBehaviour
             {
                 fileStream = File.Create(dataPath);
             }
-
+            //if(TMD )
             binaryFormatter.Serialize(fileStream, TMD);
             fileStream.Close();
         }
@@ -77,6 +94,7 @@ public class SaveScript : MonoBehaviour
         {
             Debug.Log("Failed to Save: " + e.Message);
         }
+        Debug.Log("Stopped Saving");
     }
 
     /// <summary>
@@ -86,11 +104,11 @@ public class SaveScript : MonoBehaviour
     /// <returns></returns>
     public static ToggleMetaData Load()
     {
-
+        Debug.Log("Loaded");
         //Find the file path
         string dataPath = string.Format("{0}/ToggleSave.dat", Application.persistentDataPath);
 
-        Debug.Log(dataPath);
+        //Debug.Log(dataPath);
 
         try
         {
@@ -118,7 +136,9 @@ public class SaveScript : MonoBehaviour
             Debug.Log("Failed to Load: " + e.Message);
         }
 
+        Debug.Log("Stopped Loading");
         return TMD;
     }
+
 }
 

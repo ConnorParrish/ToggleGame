@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start () {        
 		GetComponentsInChildren<Animator> (true, anim); // Grabs all animators (enabled or disabled)
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);	//Grabs all Sprite Renderers (enabled or disabled)
 		CurrentLevelInt = Application.loadedLevel; // Grabs the current level
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour {
             yield return null;
         }
 
-        Debug.Log("Jack Shit");
+        //Debug.Log("Jack Shit");
 
         Speed = prevSpeed;
     }
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour {
 				soundEffectSource.Play();
 			}
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
-			Debug.Log("You've made it, you beautiful bastard");
+			//Debug.Log("You've made it, you beautiful bastard");
 			endConfetti.SetActive(true);
 
 			// foreach (Animator anims in anim){
@@ -139,7 +139,7 @@ public class PlayerMovement : MonoBehaviour {
 				soundEffectSource.Play();
 			}
             SaveScript.TMD.died();
-            Debug.Log("triggered");
+            //Debug.Log("triggered");
             SceneManager.LoadScene(CurrentLevelInt);
         }
 
@@ -169,7 +169,7 @@ public class PlayerMovement : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D col){
     	// If the player collides with a coin!
     	if (col.gameObject.tag == "Coin"){
-			Debug.Log("We touched :O");
+			//Debug.Log("We touched :O");
 			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
 			CoinText.text = System.Convert.ToString(currentCoin);
             SaveScript.TMD.addCoin();            
@@ -178,7 +178,7 @@ public class PlayerMovement : MonoBehaviour {
 
     	// If the player runs into the wrong color
     	if (col.gameObject.tag == "WhitePlatform" && !isWhite){
-    		Debug.Log("Fuck, I'm black, but its white");
+    		//Debug.Log("Fuck, I'm black, but its white");
 
 
             isDead = true;
@@ -186,7 +186,7 @@ public class PlayerMovement : MonoBehaviour {
 
     	// If the player runs into the wrong color
     	if (col.gameObject.tag == "BlackPlatform" && isWhite){
-    		Debug.Log("Fuck, I'm white, but its black");
+    		//Debug.Log("Fuck, I'm white, but its black");
 
 
             isDead = true;
@@ -209,7 +209,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		// Kills the player on collision with spikes
 		if (blockCollision.gameObject.tag == "Spike" || (blockCollision.gameObject.tag == "WhitePlatform" && !isWhite) || (blockCollision.gameObject.tag == "BlackPlatform" && isWhite)){
-			Debug.Log("Fuck, that hurt");
+			//Debug.Log("Fuck, that hurt");
 
 
             isDead = true;
@@ -228,7 +228,7 @@ public class PlayerMovement : MonoBehaviour {
 				soundEffectSource.Play();
 			}
 
-            Debug.Log("Reverse");
+            //Debug.Log("Reverse");
             isReversed = !isReversed;
             Speed = -Speed;
             this.transform.localScale = new Vector3(-this.transform.localScale.x, this.transform.localScale.y);
@@ -241,7 +241,7 @@ public class PlayerMovement : MonoBehaviour {
         	if (soundHooks){
 				soundEffectSource.Play();
 			}
-            Debug.Log("Jumped");
+            //Debug.Log("Jumped");
             rb2d.AddForce(Vector2.up * bounceMag);
             isGrounded = false;
             foreach (Animator animator in anim)
@@ -256,7 +256,7 @@ public class PlayerMovement : MonoBehaviour {
         	if (soundHooks){
 				soundEffectSource.Play();
 			}
-            Debug.Log("Longed");
+            //Debug.Log("Longed");
 
             rb2d.AddForce(Vector2.right * bounceMag);
             rb2d.AddForce(Vector2.up * bounceMag);
