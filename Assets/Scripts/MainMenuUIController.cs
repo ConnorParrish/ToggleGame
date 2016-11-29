@@ -15,7 +15,7 @@ public class MainMenuUIController : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Debug.Log("Button Working");
+        //Debug.Log("Button Working");
         if (IsExit)
         {
             Application.Quit();
@@ -28,7 +28,7 @@ public class MainMenuUIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
     void OnMouseOver()
