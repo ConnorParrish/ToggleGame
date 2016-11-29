@@ -865,7 +865,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!1 &100971582
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,8 +989,6 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-=======
->>>>>>> 7698d8c7bc2c781ae464e17e7e7eb64fd002ffae
 --- !u!1001 &118579644
 Prefab:
   m_ObjectHideFlags: 0
