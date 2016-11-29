@@ -12801,11 +12801,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000011778049928, guid: c6b3a0850e7818b4c84c615a31e66b70, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 837.0099
+      value: 835.46
       objectReference: {fileID: 0}
     - target: {fileID: 4000011778049928, guid: c6b3a0850e7818b4c84c615a31e66b70, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.5534637
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 4000011778049928, guid: c6b3a0850e7818b4c84c615a31e66b70, type: 2}
       propertyPath: m_LocalPosition.z
@@ -15307,6 +15307,21 @@ Prefab:
       propertyPath: endConfetti
       value: 
       objectReference: {fileID: 946741180}
+    - target: {fileID: 114000011203371296, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: startBlock
+      value: 
+      objectReference: {fileID: 55640525}
+    - target: {fileID: 114000011203371296, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: endPoint
+      value: 
+      objectReference: {fileID: 1205029815}
+    - target: {fileID: 114000011203371296, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: progBar
+      value: 
+      objectReference: {fileID: 140527274}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
   m_IsPrefabParent: 0

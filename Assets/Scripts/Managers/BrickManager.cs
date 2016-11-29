@@ -30,7 +30,8 @@ public class BrickManager : MonoBehaviour {
 		foreach (GameObject platform in BlackPlatforms){
 			//platform.GetComponent<SpriteRenderer>().sprite = BlackSprite;
 			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().enabled = false;
+				platform.GetComponent<BoxCollider2D>().isTrigger = true;
+				platform.GetComponent<BoxCollider2D>().enabled = true;
 			}
 		}
 	}
@@ -38,7 +39,7 @@ public class BrickManager : MonoBehaviour {
 	void swapState(GameObject[] platformSet){
 		foreach (GameObject platform in platformSet){
 			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().enabled = !platform.GetComponent<BoxCollider2D>().enabled;
+				platform.GetComponent<BoxCollider2D>().isTrigger = !platform.GetComponent<BoxCollider2D>().isTrigger;
 			}
 		}
 	}
@@ -49,7 +50,7 @@ public class BrickManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Q)){
+		if (Input.GetKeyDown(KeyCode.Q) || ((Input.touchCount == 1) && (Input.GetTouch(0).phase == TouchPhase.Began) && Input.touches[0].position.x > Screen.width/2)){
 			swapState(WhitePlatforms);
 			swapState(BlackPlatforms);
 			StartCoroutine(waitpls());
