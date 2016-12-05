@@ -1,15 +1,15 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
-SceneSettings:
+OcclusionCullingSettings:
   m_ObjectHideFlags: 0
-  m_PVSData: 
-  m_PVSObjectsArray: []
-  m_PVSPortalsArray: []
+  serializedVersion: 2
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -79,16 +79,17 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
+    agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
-    accuratePlacement: 0
     minRegionArea: 2
-    cellSize: 0.16666667
     manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1001 &1892605
 Prefab:
@@ -184,6 +185,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -235,6 +242,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -286,6 +299,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -337,6 +356,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -439,6 +464,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -490,6 +521,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -541,6 +578,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -643,6 +686,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -656,10 +705,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 49130696}
-  - 212: {fileID: 49130697}
+  - component: {fileID: 49130696}
+  - component: {fileID: 49130697}
   m_Layer: 0
   m_Name: Redline Trial
   m_TagString: Untagged
@@ -676,10 +725,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -669.5825, y: 2.690239, z: 0}
   m_LocalScale: {x: 1, y: 7.6250005, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278282}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &49130697
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -694,7 +743,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -702,7 +753,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -723,10 +774,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 56225547}
-  - 212: {fileID: 56225548}
+  - component: {fileID: 56225547}
+  - component: {fileID: 56225548}
   m_Layer: 0
   m_Name: Tree1
   m_TagString: Untagged
@@ -743,10 +794,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -255.67026, y: 1.8347511, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278284}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &56225548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -761,7 +812,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -769,7 +822,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -816,7 +869,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -824,7 +879,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -840,9 +895,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1051258170}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 381526450}
+  - component: {fileID: 381526450}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -855,9 +910,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1219814892}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 2014459729}
+  - component: {fileID: 2014459729}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -870,10 +925,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 100971584}
-  - 212: {fileID: 100971583}
+  - component: {fileID: 100971584}
+  - component: {fileID: 100971583}
   m_Layer: 0
   m_Name: Background (2)
   m_TagString: Untagged
@@ -895,7 +950,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -903,7 +960,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -923,19 +980,19 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 885.4137, y: -4.277971, z: 0.74}
   m_LocalScale: {x: 4.6376038, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1077945214}
-  m_RootOrder: 6
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &116061621
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 116061622}
-  - 212: {fileID: 116061623}
+  - component: {fileID: 116061622}
+  - component: {fileID: 116061623}
   m_Layer: 0
   m_Name: Bunny
   m_TagString: Untagged
@@ -952,10 +1009,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -651.5748, y: 6.346426, z: 0}
   m_LocalScale: {x: 2.6925008, y: 2.6925006, z: 2.6925006}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278280}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &116061623
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -970,7 +1027,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -978,7 +1037,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -1032,6 +1091,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -1091,6 +1156,12 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -1104,9 +1175,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 144990777}
+  - component: {fileID: 144990777}
   m_Layer: 0
   m_Name: White Platforms
   m_TagString: Untagged
@@ -1123,7 +1194,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8130684, y: 1.6824892, z: -3.59375}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 55640525}
   - {fileID: 995825474}
@@ -1252,6 +1322,7 @@ Transform:
   - {fileID: 1051258171}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &145896921
 Prefab:
   m_ObjectHideFlags: 0
@@ -1346,6 +1417,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -1495,6 +1572,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -1508,10 +1597,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 201218035}
-  - 212: {fileID: 201218036}
+  - component: {fileID: 201218035}
+  - component: {fileID: 201218036}
   m_Layer: 0
   m_Name: bush1 (1)
   m_TagString: Untagged
@@ -1528,10 +1617,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -108.60339, y: 1.9758949, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278284}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &201218036
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1546,7 +1635,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1554,7 +1645,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -1659,6 +1750,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -1672,9 +1769,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 2139092487}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1578554477}
+  - component: {fileID: 1578554477}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -1725,6 +1822,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -1776,6 +1879,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -1789,10 +1898,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 255337670}
-  - 212: {fileID: 255337671}
+  - component: {fileID: 255337670}
+  - component: {fileID: 255337671}
   m_Layer: 0
   m_Name: tree3
   m_TagString: Untagged
@@ -1809,10 +1918,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -464.57883, y: 13.246426, z: 0}
   m_LocalScale: {x: 4.4355707, y: 4.4355693, z: 4.4355693}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278284}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &255337671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1827,7 +1936,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1835,7 +1946,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -1851,9 +1962,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1129336043}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1129336044}
+  - component: {fileID: 1129336044}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -1959,6 +2070,18 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: 2.56
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -2010,6 +2133,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -2112,6 +2241,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2163,6 +2298,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -2227,9 +2368,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1898026135}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 902519435}
+  - component: {fileID: 902519435}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -2387,6 +2528,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2451,10 +2598,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 361998229}
-  - 212: {fileID: 361998230}
+  - component: {fileID: 361998229}
+  - component: {fileID: 361998230}
   m_Layer: 0
   m_Name: Wind
   m_TagString: Untagged
@@ -2471,10 +2618,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -273.5943, y: 3.6464257, z: 0}
   m_LocalScale: {x: 1.671121, y: 1.671121, z: 1.671121}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &361998230
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2489,7 +2636,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2497,7 +2646,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2547,6 +2696,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -2662,10 +2817,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1051258171}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &398543985
 Prefab:
   m_ObjectHideFlags: 0
@@ -2760,6 +2915,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -2773,10 +2934,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 409618134}
-  - 212: {fileID: 409618135}
+  - component: {fileID: 409618134}
+  - component: {fileID: 409618135}
   m_Layer: 0
   m_Name: Clouds1
   m_TagString: Untagged
@@ -2793,10 +2954,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -352.84152, y: 7.7185063, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &409618135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2811,7 +2972,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -2819,7 +2982,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2873,6 +3036,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2924,6 +3099,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2975,6 +3156,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3146,10 +3339,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1734336171}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &473539051
 Prefab:
   m_ObjectHideFlags: 0
@@ -3193,6 +3386,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -3244,6 +3443,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3295,6 +3500,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3346,6 +3557,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -3460,11 +3683,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1001913351}
   m_Father: {fileID: 553024181}
   m_RootOrder: 95
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &523849711
 Prefab:
   m_ObjectHideFlags: 0
@@ -3520,11 +3743,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 541338205}
   m_Father: {fileID: 553024181}
   m_RootOrder: 94
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &541338205
 Transform:
   m_ObjectHideFlags: 0
@@ -3535,10 +3758,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 523849712}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &552312956
 Prefab:
   m_ObjectHideFlags: 0
@@ -3582,6 +3805,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3595,9 +3824,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 553024181}
+  - component: {fileID: 553024181}
   m_Layer: 0
   m_Name: Black Platforms
   m_TagString: Untagged
@@ -3614,7 +3843,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8130684, y: 1.6824892, z: -3.59375}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2104499021}
   - {fileID: 1602567823}
@@ -3719,6 +3947,7 @@ Transform:
   - {fileID: 677551670}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &571507440
 Prefab:
   m_ObjectHideFlags: 0
@@ -3762,6 +3991,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3775,9 +4010,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 523849711}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 523849712}
+  - component: {fileID: 523849712}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -3846,10 +4081,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1594956141}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &599844328
 Prefab:
   m_ObjectHideFlags: 0
@@ -3893,6 +4128,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3911,10 +4152,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1608385375}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &607587534
 Prefab:
   m_ObjectHideFlags: 0
@@ -4073,9 +4314,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1734336170}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1734336171}
+  - component: {fileID: 1734336171}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -4126,6 +4367,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -4177,6 +4430,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -4228,6 +4487,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4241,10 +4506,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 638934800}
-  - 212: {fileID: 638934801}
+  - component: {fileID: 638934800}
+  - component: {fileID: 638934801}
   m_Layer: 0
   m_Name: Cloud3
   m_TagString: Untagged
@@ -4261,10 +4526,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -438.54462, y: 6.846426, z: 0}
   m_LocalScale: {x: 1.9716413, y: 1.9716415, z: 1.9716415}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &638934801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4279,7 +4544,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -4287,7 +4554,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -4451,11 +4718,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1775458138}
   m_Father: {fileID: 553024181}
   m_RootOrder: 100
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &688656581
 Prefab:
   m_ObjectHideFlags: 0
@@ -4601,6 +4868,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -4758,6 +5031,12 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4962,6 +5241,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5013,6 +5298,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5069,6 +5360,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5168,10 +5465,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 750991961}
-  - 212: {fileID: 750991962}
+  - component: {fileID: 750991961}
+  - component: {fileID: 750991962}
   m_Layer: 0
   m_Name: sux
   m_TagString: Untagged
@@ -5188,10 +5485,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -399.03452, y: 8.563799, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278281}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &750991962
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5206,7 +5503,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -5214,7 +5513,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -5319,6 +5618,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5370,6 +5675,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5421,6 +5732,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5517,7 +5834,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012956044454, guid: 5a7316dcac4aa457bb44888340599850, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a7316dcac4aa457bb44888340599850, type: 2}
@@ -5590,6 +5907,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5641,6 +5970,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5799,6 +6134,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5901,6 +6242,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -5965,10 +6312,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 858771701}
-  - 212: {fileID: 858771702}
+  - component: {fileID: 858771701}
+  - component: {fileID: 858771702}
   m_Layer: 0
   m_Name: Robinson
   m_TagString: Untagged
@@ -5985,10 +6332,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -414.17218, y: 9.257166, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278281}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &858771702
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6003,7 +6350,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -6011,7 +6360,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6116,6 +6465,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -6163,6 +6518,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 93
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -6176,10 +6537,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 882679356}
-  - 212: {fileID: 882679357}
+  - component: {fileID: 882679356}
+  - component: {fileID: 882679357}
   m_Layer: 0
   m_Name: Clouds2
   m_TagString: Untagged
@@ -6196,10 +6557,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -186.82446, y: 3.7464259, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &882679357
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6214,7 +6575,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -6222,7 +6585,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6327,6 +6690,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -6447,19 +6816,19 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1898026136}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &950946102
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 950946103}
-  - 212: {fileID: 950946104}
+  - component: {fileID: 950946103}
+  - component: {fileID: 950946104}
   m_Layer: 0
   m_Name: Tree2
   m_TagString: Untagged
@@ -6476,10 +6845,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20.278809, y: 3.6464257, z: 0}
   m_LocalScale: {x: 4.596266, y: 4.596267, z: 4.596267}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278284}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &950946104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6494,7 +6863,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -6502,7 +6873,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6556,6 +6927,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -6620,10 +6997,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 974380177}
-  - 212: {fileID: 974380178}
+  - component: {fileID: 974380177}
+  - component: {fileID: 974380178}
   m_Layer: 0
   m_Name: Bush3
   m_TagString: Untagged
@@ -6640,10 +7017,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -654.4186, y: 5.212566, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278284}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &974380178
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6658,7 +7035,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -6666,7 +7045,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6771,6 +7150,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -6830,6 +7221,12 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -6881,6 +7278,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -6932,6 +7335,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7001,10 +7416,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 518463858}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1004049209
 Prefab:
   m_ObjectHideFlags: 0
@@ -7048,6 +7463,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -7187,6 +7608,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7238,6 +7665,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7293,9 +7726,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 518463857}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 518463858}
+  - component: {fileID: 518463858}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -7346,6 +7779,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -7397,6 +7842,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -7611,9 +8062,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 677551669}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1775458138}
+  - component: {fileID: 1775458138}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -7672,11 +8123,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 381526450}
   m_Father: {fileID: 144990777}
   m_RootOrder: 124
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1074063701
 Prefab:
   m_ObjectHideFlags: 0
@@ -7733,10 +8184,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1077945214}
-  - 114: {fileID: 1077945213}
+  - component: {fileID: 1077945214}
+  - component: {fileID: 1077945213}
   m_Layer: 0
   m_Name: PlatformManager
   m_TagString: Untagged
@@ -7771,14 +8222,15 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.9263196, y: 0.67797095, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 144990777}
   - {fileID: 553024181}
   - {fileID: 2101891117}
   - {fileID: 1221830276}
+  - {fileID: 100971584}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1078716586
 Prefab:
   m_ObjectHideFlags: 0
@@ -7822,6 +8274,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7886,10 +8344,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1089992550}
-  - 212: {fileID: 1089992551}
+  - component: {fileID: 1089992550}
+  - component: {fileID: 1089992551}
   m_Layer: 0
   m_Name: bear
   m_TagString: Untagged
@@ -7906,10 +8364,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -499.91687, y: 3.5947182, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278280}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1089992551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7924,7 +8382,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -7932,7 +8392,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -7948,9 +8408,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 518463857}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1001913351}
+  - component: {fileID: 1001913351}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -8001,6 +8461,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8052,6 +8524,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8103,6 +8581,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8154,6 +8638,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8319,11 +8809,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2042609420}
   m_Father: {fileID: 553024181}
   m_RootOrder: 96
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1136677873
 Prefab:
   m_ObjectHideFlags: 0
@@ -8418,6 +8908,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8431,10 +8927,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1160683100}
-  - 212: {fileID: 1160683101}
+  - component: {fileID: 1160683100}
+  - component: {fileID: 1160683101}
   m_Layer: 0
   m_Name: Shooting star
   m_TagString: Untagged
@@ -8451,10 +8947,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -333.5129, y: 8.448245, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1160683101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8469,7 +8965,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -8477,7 +8975,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -8582,6 +9080,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8633,6 +9143,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8735,6 +9251,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8849,19 +9371,19 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2014459729}
   m_Father: {fileID: 144990777}
   m_RootOrder: 120
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1221830275
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1221830276}
+  - component: {fileID: 1221830276}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -8878,7 +9400,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19.464954, y: -1.2755682, z: -3.5664062}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1956272779}
   - {fileID: 574658307}
@@ -8887,14 +9408,15 @@ Transform:
   - {fileID: 1440771464}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1235845937
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1608385374}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 601944463}
+  - component: {fileID: 601944463}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -8945,6 +9467,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8996,6 +9530,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9009,9 +9555,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1772160719}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1377909993}
+  - component: {fileID: 1377909993}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -9024,9 +9570,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 2139092487}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 2139092488}
+  - component: {fileID: 2139092488}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -9039,10 +9585,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1276922574}
-  - 212: {fileID: 1276922575}
+  - component: {fileID: 1276922574}
+  - component: {fileID: 1276922575}
   m_Layer: 0
   m_Name: Miss
   m_TagString: Untagged
@@ -9059,10 +9605,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -422.03024, y: 9.257166, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278281}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1276922575
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9077,7 +9623,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -9085,7 +9633,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -9101,9 +9649,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 523849711}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 541338205}
+  - component: {fileID: 541338205}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -9307,6 +9855,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9358,6 +9912,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9409,6 +9969,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9422,9 +9988,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1898026135}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1898026136}
+  - component: {fileID: 1898026136}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -9475,6 +10041,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9526,6 +10098,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -9619,6 +10197,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -9670,6 +10254,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -9734,10 +10324,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1772160720}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1391287550
 Prefab:
   m_ObjectHideFlags: 0
@@ -9794,9 +10384,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1219814892}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1219814893}
+  - component: {fileID: 1219814893}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -9911,9 +10501,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1051258170}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1051258171}
+  - component: {fileID: 1051258171}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -10071,6 +10661,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10084,10 +10680,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1469922189}
-  - 212: {fileID: 1469922190}
+  - component: {fileID: 1469922189}
+  - component: {fileID: 1469922190}
   m_Layer: 0
   m_Name: Cloud pencil
   m_TagString: Untagged
@@ -10104,10 +10700,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 24.565552, y: 6.32771, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1469922190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10122,7 +10718,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -10130,7 +10728,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -10235,6 +10833,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -10286,6 +10896,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -10337,6 +10959,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10388,6 +11022,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -10439,6 +11079,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10452,9 +11104,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 677551669}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 677551670}
+  - component: {fileID: 677551670}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -10505,6 +11157,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -10556,6 +11220,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10658,6 +11328,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -10676,10 +11358,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 2139092488}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1579810534
 Prefab:
   m_ObjectHideFlags: 0
@@ -10791,11 +11473,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 583892175}
   m_Father: {fileID: 144990777}
   m_RootOrder: 122
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1601394470
 Prefab:
   m_ObjectHideFlags: 0
@@ -10890,6 +11572,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -10941,6 +11635,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -11004,11 +11704,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 601944463}
   m_Father: {fileID: 144990777}
   m_RootOrder: 123
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1617287945
 Prefab:
   m_ObjectHideFlags: 0
@@ -11052,6 +11752,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11103,6 +11809,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -11154,6 +11866,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11167,9 +11885,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1772160719}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1772160720}
+  - component: {fileID: 1772160720}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -11220,6 +11938,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11335,10 +12065,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1656343674}
-  - 212: {fileID: 1656343675}
+  - component: {fileID: 1656343674}
+  - component: {fileID: 1656343675}
   m_Layer: 0
   m_Name: Skull copy
   m_TagString: Untagged
@@ -11355,10 +12085,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -183.26807, y: -7.338975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278282}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1656343675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11373,7 +12103,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -11381,7 +12113,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -11537,6 +12269,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11588,6 +12326,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11639,6 +12383,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11690,6 +12440,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -11754,9 +12510,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1608385374}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1608385375}
+  - component: {fileID: 1608385375}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -11972,11 +12728,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 466516646}
   m_Father: {fileID: 144990777}
   m_RootOrder: 121
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1739398448
 Prefab:
   m_ObjectHideFlags: 0
@@ -12071,6 +12827,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12122,6 +12884,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -12185,11 +12953,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1377909993}
   m_Father: {fileID: 553024181}
   m_RootOrder: 98
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1775458138
 Transform:
   m_ObjectHideFlags: 0
@@ -12200,10 +12968,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 677551670}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1783186382
 Prefab:
   m_ObjectHideFlags: 0
@@ -12298,6 +13066,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12311,9 +13085,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1734336170}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 466516646}
+  - component: {fileID: 466516646}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -12326,9 +13100,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1129336043}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 2042609420}
+  - component: {fileID: 2042609420}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -12379,6 +13153,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -12430,6 +13210,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12532,6 +13318,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12583,6 +13375,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12744,6 +13548,53 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c,
     type: 2}
   m_PrefabInternal: {fileID: 1859229028}
+--- !u!1001 &1869978988
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 15.603687
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.97289
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 82078271637754908, guid: fe86ae29be51947c8a8b57b10ccdccd8,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 78bde792e38684fd08548b1a82441856, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1871953244
 Prefab:
   m_ObjectHideFlags: 0
@@ -12787,6 +13638,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -12800,9 +13657,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1594956140}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1594956141}
+  - component: {fileID: 1594956141}
   m_Layer: 0
   m_Name: Missing Prefab
   m_TagString: Untagged
@@ -12904,6 +13761,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -12967,11 +13830,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 902519435}
   m_Father: {fileID: 553024181}
   m_RootOrder: 99
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1898059798
 Prefab:
   m_ObjectHideFlags: 0
@@ -13066,6 +13929,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -13123,6 +13992,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13174,6 +14055,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13353,10 +14246,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 1958992156}
-  - 212: {fileID: 1958992157}
+  - component: {fileID: 1958992156}
+  - component: {fileID: 1958992157}
   m_Layer: 0
   m_Name: bush1
   m_TagString: Untagged
@@ -13373,10 +14266,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -556.54047, y: 5.328121, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278284}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1958992157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13391,7 +14284,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -13399,7 +14294,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -13504,6 +14399,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -13619,9 +14520,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1594956140}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 583892175}
+  - component: {fileID: 583892175}
   m_Layer: 0
   m_Name: Missing Prefab (Dummy)
   m_TagString: Untagged
@@ -13639,10 +14540,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1219814893}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2020223935
 Prefab:
   m_ObjectHideFlags: 0
@@ -13686,6 +14587,12 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -13737,6 +14644,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13839,6 +14752,18 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13852,10 +14777,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 2037991825}
-  - 212: {fileID: 2037991826}
+  - component: {fileID: 2037991825}
+  - component: {fileID: 2037991826}
   m_Layer: 0
   m_Name: Cloud3 (1)
   m_TagString: Untagged
@@ -13872,10 +14797,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -67.39679, y: 4.24164, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 791278283}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2037991826
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13890,7 +14815,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -13898,7 +14825,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -13919,10 +14846,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1129336044}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2045479680
 Prefab:
   m_ObjectHideFlags: 0
@@ -14017,6 +14944,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -14119,6 +15058,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14170,6 +15115,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14423,6 +15374,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14436,9 +15393,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 2101891117}
+  - component: {fileID: 2101891117}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -14455,10 +15412,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8130684, y: 1.6824892, z: -3.59375}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1077945214}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2104499020
 Prefab:
   m_ObjectHideFlags: 0
@@ -14502,6 +15459,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -14553,6 +15522,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14604,6 +15579,18 @@ Prefab:
       propertyPath: m_Name
       value: Black Platform 2D (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
+        type: 3}
+    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -14706,6 +15693,12 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14815,8 +15808,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1578554477}
   m_Father: {fileID: 553024181}
   m_RootOrder: 97
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

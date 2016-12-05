@@ -16,10 +16,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000013757120518}
-  - 82: {fileID: 82000013338698356}
+  - component: {fileID: 4000013757120518}
+  - component: {fileID: 82000013338698356}
   m_Layer: 0
   m_Name: Jukebox
   m_TagString: Untagged
@@ -32,11 +32,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000013231811878}
-  - 212: {fileID: 212000011759958062}
-  - 95: {fileID: 95000013826545492}
+  - component: {fileID: 4000013231811878}
+  - component: {fileID: 212000011759958062}
+  - component: {fileID: 95000013826545492}
   m_Layer: 0
   m_Name: BlackMode
   m_TagString: Untagged
@@ -49,11 +49,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000013671218518}
-  - 212: {fileID: 212000010720168712}
-  - 95: {fileID: 95000014221865004}
+  - component: {fileID: 4000013671218518}
+  - component: {fileID: 212000010720168712}
+  - component: {fileID: 95000014221865004}
   m_Layer: 0
   m_Name: WhiteMode
   m_TagString: Untagged
@@ -66,15 +66,15 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000011372757236}
-  - 50: {fileID: 50000011590954504}
-  - 114: {fileID: 114000012532621776}
-  - 252: {fileID: 252000010924266078}
-  - 58: {fileID: 58000012744717770}
-  - 212: {fileID: 212000013132895800}
-  - 114: {fileID: 114000011203371296}
+  - component: {fileID: 4000011372757236}
+  - component: {fileID: 50000011590954504}
+  - component: {fileID: 114000012532621776}
+  - component: {fileID: 252000010924266078}
+  - component: {fileID: 58000012744717770}
+  - component: {fileID: 212000013132895800}
+  - component: {fileID: 114000011203371296}
   m_Layer: 0
   m_Name: Player_2D
   m_TagString: Player
@@ -91,13 +91,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.86, y: 1.89, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000013671218518}
   - {fileID: 4000013231811878}
   - {fileID: 4000013757120518}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000013231811878
 Transform:
   m_ObjectHideFlags: 1
@@ -107,10 +107,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011372757236}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000013671218518
 Transform:
   m_ObjectHideFlags: 1
@@ -120,10 +120,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011372757236}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000013757120518
 Transform:
   m_ObjectHideFlags: 1
@@ -133,23 +133,26 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011372757236}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &50000011590954504
 Rigidbody2D:
-  serializedVersion: 2
+  serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014224718718}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1.6384
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 6
-  m_IsKinematic: 0
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -177,13 +180,14 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f125fd492985b4a5ba44f9902ec99053, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
+  SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
@@ -196,12 +200,14 @@ AudioSource:
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - serializedVersion: 2
+      time: 0
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - time: 1
+    - serializedVersion: 2
+      time: 1
       value: 0
       inSlope: 0
       outSlope: 0
@@ -212,7 +218,8 @@ AudioSource:
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - serializedVersion: 2
+      time: 0
       value: 0
       inSlope: 0
       outSlope: 0
@@ -223,7 +230,8 @@ AudioSource:
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - serializedVersion: 2
+      time: 0
       value: 0
       inSlope: 0
       outSlope: 0
@@ -234,7 +242,8 @@ AudioSource:
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - serializedVersion: 2
+      time: 0
       value: 1
       inSlope: 0
       outSlope: 0
@@ -290,6 +299,7 @@ MonoBehaviour:
   startBlock: {fileID: 0}
   endPoint: {fileID: 0}
   progBar: {fileID: 0}
+  topDistance: 0
 --- !u!114 &114000012532621776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -303,18 +313,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 12
   JumpStrength: 1750
+  bounceMag: 1750
   isGrounded: 0
+  isReversed: 0
   isDead: 0
   isWhite: 1
-  confetti: 0
-  bounceMag: 1750
+  soundHooks: 1
+  isFinished: 0
+  diedFlag: 1
   endPoint: {fileID: 0}
   CoinText: {fileID: 0}
-  reversed: 0
-  soundHooks: 1
   endConfetti: {fileID: 0}
   soundEffectSource: {fileID: 82000013338698356}
-  playerCamera: {fileID: 0}
   GameOver: {fileID: 0}
 --- !u!212 &212000010720168712
 SpriteRenderer:
@@ -330,7 +340,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -338,7 +350,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -363,7 +375,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -371,7 +385,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -396,7 +410,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -404,7 +420,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 1
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
