@@ -10,4 +10,5 @@ public class Catalog : MonoBehaviour {
 	public AudioClip endLevel;
 	public AudioClip pause;
 	public AudioClip restart;
+	public AudioClip coinPickup;
 }
