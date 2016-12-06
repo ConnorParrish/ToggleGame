@@ -296,6 +296,7 @@ MonoBehaviour:
   endLevel: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
   pause: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
   restart: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  coinPickup: {fileID: 0}
 --- !u!114 &114000012532621776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -320,7 +321,7 @@ MonoBehaviour:
   endPoint: {fileID: 0}
   CoinText: {fileID: 0}
   endConfetti: {fileID: 0}
-  soundEffectSource: {fileID: 82000013338698356}
+  JB: {fileID: 1000010631579108}
   GameOver: {fileID: 0}
 --- !u!114 &114000014256254238
 MonoBehaviour:
