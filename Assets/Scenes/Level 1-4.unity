@@ -1,15 +1,15 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
-OcclusionCullingSettings:
+SceneSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
   m_OcclusionBakeSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -79,17 +79,16 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-    agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
     accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: 0.16666667
+    manualCellSize: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1001 &8590437
 Prefab:
@@ -134,12 +133,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (168)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -236,18 +229,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 43
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (39)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -344,7 +331,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 33
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -452,12 +439,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (167)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -509,12 +490,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -662,24 +637,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 49
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (33)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -776,7 +739,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 32
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -1290,9 +1253,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -1300,7 +1261,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -1501,7 +1462,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010664873758, guid: 6c8c56c8da4d040319e5e92412c8ac4b, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c8c56c8da4d040319e5e92412c8ac4b, type: 2}
@@ -1849,18 +1810,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 52
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (30)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2110,24 +2065,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 79
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -2147,9 +2090,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 144990777}
+  - 4: {fileID: 144990777}
   m_Layer: 0
   m_Name: White Platforms
   m_TagString: Untagged
@@ -2166,6 +2109,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8130684, y: 1.6824892, z: -3.59375}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 55640525}
   - {fileID: 1687066163}
@@ -2397,7 +2341,6 @@ Transform:
   - {fileID: 503046465}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &154242687
 Prefab:
   m_ObjectHideFlags: 0
@@ -2435,7 +2378,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -3304,12 +3247,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (162)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -3559,7 +3496,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 92
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -4018,7 +3955,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 64
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -4177,12 +4114,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (191)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -4228,7 +4159,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 29
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -4642,12 +4573,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (189)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5005,12 +4930,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (163)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5274,12 +5193,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -5645,10 +5558,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 390051471}
-  - component: {fileID: 390051470}
+  - 4: {fileID: 390051471}
+  - 212: {fileID: 390051470}
   m_Layer: 0
   m_Name: negative1
   m_TagString: Untagged
@@ -5670,9 +5583,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -5680,7 +5591,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -5700,10 +5611,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 698.7608, y: 0.8, z: 0}
   m_LocalScale: {x: 1.5701538, y: 1.5701541, z: 1.5701541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 19
 --- !u!1001 &392854416
 Prefab:
   m_ObjectHideFlags: 0
@@ -5996,7 +5907,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 38
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -6149,18 +6060,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 46
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (36)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -6359,7 +6264,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 85
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -6665,7 +6570,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 98
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -6875,18 +6780,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (172)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -6951,9 +6844,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 493346696}
+  - 4: {fileID: 493346696}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -6970,6 +6863,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 210173355}
   - {fileID: 1409506561}
@@ -6978,7 +6872,6 @@ Transform:
   - {fileID: 1621561166}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &494376352
 Prefab:
   m_ObjectHideFlags: 0
@@ -7120,18 +7013,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 227
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -7534,7 +7415,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -7604,9 +7485,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 553024181}
+  - 4: {fileID: 553024181}
   m_Layer: 0
   m_Name: Black Platforms
   m_TagString: Untagged
@@ -7623,6 +7504,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8130684, y: 1.6824892, z: -3.59375}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 182879847}
   - {fileID: 577977683}
@@ -7725,7 +7607,6 @@ Transform:
   - {fileID: 461197102}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &553668719
 Prefab:
   m_ObjectHideFlags: 0
@@ -7973,18 +7854,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (164)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8030,18 +7899,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 68
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8093,12 +7956,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (87)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -8144,7 +8001,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 30
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -8260,6 +8117,48 @@ Transform:
   m_PrefabParentObject: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030,
     type: 2}
   m_PrefabInternal: {fileID: 625169482}
+--- !u!1001 &629403641
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 807.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000014216280274, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b6c6ed7750e0b43b58017ceb03dd68ee, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &637292457
 Prefab:
   m_ObjectHideFlags: 0
@@ -8297,7 +8196,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 88
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -8316,10 +8215,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 637609708}
-  - component: {fileID: 637609707}
+  - 4: {fileID: 637609708}
+  - 212: {fileID: 637609707}
   m_Layer: 0
   m_Name: stump
   m_TagString: Untagged
@@ -8341,9 +8240,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -8351,7 +8248,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -8371,10 +8268,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 239, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 12
 --- !u!1001 &642182100
 Prefab:
   m_ObjectHideFlags: 0
@@ -8463,18 +8360,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 50
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (32)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8571,7 +8462,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 95
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -8826,18 +8717,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 57
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8883,18 +8768,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 69
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -8940,7 +8819,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -8959,10 +8838,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 670979749}
-  - component: {fileID: 670979748}
+  - 4: {fileID: 670979749}
+  - 212: {fileID: 670979748}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -8984,9 +8863,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -8994,7 +8871,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -9014,10 +8891,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 329.16586, y: 1.0624909, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 13
 --- !u!1001 &671361219
 Prefab:
   m_ObjectHideFlags: 0
@@ -9412,24 +9289,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 70
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -9679,7 +9544,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -9999,53 +9864,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000010099135858, guid: b37cd0e0dbe66f9419e4691968406394,
     type: 2}
   m_PrefabInternal: {fileID: 716240186}
---- !u!1001 &719741888
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 15.603687
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 4.97289
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 82078271637754908, guid: fe86ae29be51947c8a8b57b10ccdccd8,
-        type: 2}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 174def093a66e4f06a58ec85430da6a7, type: 3}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &726173466
 Prefab:
   m_ObjectHideFlags: 0
@@ -10134,18 +9952,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 76
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -10610,12 +10422,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (95)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -11445,10 +11251,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 818558124}
-  - component: {fileID: 818558123}
+  - 4: {fileID: 818558124}
+  - 212: {fileID: 818558123}
   m_Layer: 0
   m_Name: Clouds1
   m_TagString: Untagged
@@ -11470,9 +11276,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -11480,7 +11284,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -11500,10 +11304,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 490.52325, y: 3.2138863, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 15
 --- !u!1001 &820498527
 Prefab:
   m_ObjectHideFlags: 0
@@ -11541,7 +11345,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -11996,7 +11800,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 42
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -12410,12 +12214,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (186)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -12818,7 +12616,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 86
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -12971,18 +12769,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 78
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -13079,7 +12871,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011778049928, guid: c6b3a0850e7818b4c84c615a31e66b70, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c6b3a0850e7818b4c84c615a31e66b70, type: 2}
@@ -13234,12 +13026,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (184)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -13457,10 +13243,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 961318890}
-  - component: {fileID: 961318889}
+  - 4: {fileID: 961318890}
+  - 212: {fileID: 961318889}
   m_Layer: 0
   m_Name: Tree2
   m_TagString: Untagged
@@ -13482,9 +13268,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -13492,7 +13276,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -13512,10 +13296,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 126.36622, y: 7.1, z: 0}
   m_LocalScale: {x: 5.1634455, y: 5.163451, z: 5.163451}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 10
 --- !u!1001 &963066077
 Prefab:
   m_ObjectHideFlags: 0
@@ -14375,18 +14159,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (170)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -14571,18 +14343,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 40
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (54)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -14838,12 +14604,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (185)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -15042,24 +14802,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 72
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -15105,18 +14853,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 60
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -15334,10 +15076,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1077945214}
-  - component: {fileID: 1077945213}
+  - 4: {fileID: 1077945214}
+  - 114: {fileID: 1077945213}
   m_Layer: 0
   m_Name: PlatformManager
   m_TagString: Untagged
@@ -15372,14 +15114,14 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.9263196, y: 0.67797095, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 144990777}
   - {fileID: 553024181}
   - {fileID: 2101891117}
   - {fileID: 493346696}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 7
 --- !u!1001 &1078455641
 Prefab:
   m_ObjectHideFlags: 0
@@ -15542,11 +15284,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000011372757236, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.86
+      value: 537.78
       objectReference: {fileID: 0}
     - target: {fileID: 4000011372757236, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.89
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 4000011372757236, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
       propertyPath: m_LocalPosition.z
@@ -15570,7 +15312,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011372757236, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114000012532621776, guid: 7b43850fd3b0e7741a69f3cebe560f55,
         type: 2}
@@ -16228,18 +15970,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 80
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -16336,7 +16072,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 97
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -16438,14 +16174,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 81
+      value: 82
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -16695,18 +16425,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 45
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (37)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -16854,7 +16578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 66
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -16911,12 +16635,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (187)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -17166,18 +16884,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 51
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (31)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -17344,10 +17056,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1192176102}
-  - component: {fileID: 1192176101}
+  - 4: {fileID: 1192176102}
+  - 212: {fileID: 1192176101}
   m_Layer: 0
   m_Name: Wind
   m_TagString: Untagged
@@ -17369,9 +17081,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -17379,7 +17089,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -17399,10 +17109,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 167.8093, y: -1.2, z: 0}
   m_LocalScale: {x: 2.3968153, y: 2.3968148, z: 2.3968148}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 11
 --- !u!1001 &1199316338
 Prefab:
   m_ObjectHideFlags: 0
@@ -18108,7 +17818,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 91
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -18159,7 +17869,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 31
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -18267,12 +17977,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (165)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -18420,18 +18124,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 74
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -18528,18 +18226,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 75
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -19203,12 +18895,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (63)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -19407,7 +19093,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 89
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -19611,7 +19297,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 90
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -19676,6 +19362,48 @@ Transform:
   m_PrefabParentObject: {fileID: 4000010099135858, guid: b37cd0e0dbe66f9419e4691968406394,
     type: 2}
   m_PrefabInternal: {fileID: 1324397795}
+--- !u!1001 &1330430530
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 642.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013832210402, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1339599199
 Prefab:
   m_ObjectHideFlags: 0
@@ -19764,7 +19492,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 63
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -19821,12 +19549,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (161)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -20082,12 +19804,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (160)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -20133,7 +19849,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 83
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -20439,24 +20155,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 47
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (35)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 304a1056659de4f43a3133b8318aa614,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -20910,18 +20614,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 61
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -21177,12 +20875,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (159)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -21336,12 +21028,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (188)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -21438,7 +21124,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -21489,7 +21175,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 62
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -21591,7 +21277,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 93
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -21846,7 +21532,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 94
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -22260,12 +21946,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (183)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -22279,10 +21959,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1498051909}
-  - component: {fileID: 1498051908}
+  - 4: {fileID: 1498051909}
+  - 212: {fileID: 1498051908}
   m_Layer: 0
   m_Name: Redline Trial
   m_TagString: Untagged
@@ -22304,9 +21984,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -22314,7 +21992,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -22334,10 +22012,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 37.98455, y: -1.1326736, z: 0}
   m_LocalScale: {x: 1, y: 8.1625, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 20
 --- !u!1001 &1502026685
 Prefab:
   m_ObjectHideFlags: 0
@@ -22445,10 +22123,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1508902959}
-  - component: {fileID: 1508902958}
+  - 4: {fileID: 1508902959}
+  - 212: {fileID: 1508902958}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -22470,9 +22148,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -22480,7 +22156,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -22500,10 +22176,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 752.4314, y: 7.177015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 18
 --- !u!1001 &1514887894
 Prefab:
   m_ObjectHideFlags: 0
@@ -22592,7 +22268,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 24
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -22662,10 +22338,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1521187502}
-  - component: {fileID: 1521187501}
+  - 4: {fileID: 1521187502}
+  - 212: {fileID: 1521187501}
   m_Layer: 0
   m_Name: Tree1
   m_TagString: Untagged
@@ -22687,9 +22363,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -22697,7 +22371,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -22717,10 +22391,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 554.0462, y: -0.63599396, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 16
 --- !u!1001 &1524897638
 Prefab:
   m_ObjectHideFlags: 0
@@ -22962,18 +22636,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 77
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -23027,7 +22695,7 @@ Prefab:
     - target: {fileID: 224000012645054376, guid: f47bcf29a84f7c349a6a9e270a0ea0c3,
         type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224000012645054376, guid: f47bcf29a84f7c349a6a9e270a0ea0c3,
         type: 2}
@@ -23237,12 +22905,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (181)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -23288,7 +22950,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 37
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -23441,7 +23103,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 84
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -23696,7 +23358,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 25
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -23855,12 +23517,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (193)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -24065,18 +23721,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (173)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -24173,7 +23817,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 82
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -24538,12 +24182,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (175)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -24589,18 +24227,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 73
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -24646,7 +24278,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 27
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -24799,24 +24431,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 54
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (27)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -25480,12 +25100,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (190)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -25582,7 +25196,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 39
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -26143,7 +25757,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -26315,10 +25929,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1772282880}
-  - component: {fileID: 1772282879}
+  - 4: {fileID: 1772282880}
+  - 212: {fileID: 1772282879}
   m_Layer: 0
   m_Name: flowerPurp
   m_TagString: Untagged
@@ -26340,9 +25954,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -26350,7 +25962,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -26370,10 +25982,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 396.20016, y: 2.9874296, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 14
 --- !u!1001 &1782371451
 Prefab:
   m_ObjectHideFlags: 0
@@ -26462,24 +26074,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 48
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (34)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -26735,18 +26335,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (174)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -26811,10 +26399,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1817353518}
-  - component: {fileID: 1817353517}
+  - 4: {fileID: 1817353518}
+  - 212: {fileID: 1817353517}
   m_Layer: 0
   m_Name: Stag
   m_TagString: Untagged
@@ -26836,9 +26424,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -26846,7 +26432,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -26866,10 +26452,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 55.48272, y: 4.119808, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 9
 --- !u!1001 &1817401475
 Prefab:
   m_ObjectHideFlags: 0
@@ -27009,7 +26595,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 41
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -27060,18 +26646,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 59
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -27117,7 +26697,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 96
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -27174,12 +26754,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (166)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -27231,12 +26805,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (62)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -27435,24 +27003,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 55
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (26)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -27549,18 +27105,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 44
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (38)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -27625,10 +27175,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 1862542037}
-  - component: {fileID: 1862542036}
+  - 4: {fileID: 1862542037}
+  - 212: {fileID: 1862542036}
   m_Layer: 0
   m_Name: tree3
   m_TagString: Untagged
@@ -27650,9 +27200,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
+  m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -27660,7 +27208,7 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -27680,10 +27228,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 655.95593, y: -1.1, z: 0}
   m_LocalScale: {x: 1.4552145, y: 1.4552145, z: 1.4552145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 17
 --- !u!1001 &1862638331
 Prefab:
   m_ObjectHideFlags: 0
@@ -28027,7 +27575,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 26
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -28180,18 +27728,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 58
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -28651,12 +28193,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (38)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -29473,18 +29009,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (171)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -29581,24 +29105,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 71
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -29695,18 +29207,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 67
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -29860,12 +29366,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (169)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000010466819196, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7b15decfe81804f6fa0ce786f341d337,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -30013,18 +29513,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 56
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (25)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000011144376730, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 990117f78c0984039b3c5afcbd6e7434,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -30433,12 +29927,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (182)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -30484,7 +29972,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 87
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -30745,12 +30233,6 @@ Prefab:
       propertyPath: m_Name
       value: White Platform 2D (192)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012137449924, guid: c8d4421075e7f294d9941f9f815f869c,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 31d7a4fb968914a51a55c2e4a1199fc0,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8d4421075e7f294d9941f9f815f869c, type: 2}
   m_IsPrefabParent: 0
@@ -30898,7 +30380,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 65
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
@@ -31102,18 +30584,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_RootOrder
-      value: 53
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 1000012823694498, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
       propertyPath: m_Name
       value: Black Platform 2D (29)
       objectReference: {fileID: 0}
-    - target: {fileID: 212000012140714544, guid: 1b7f11f37a2bca640bf04e6328fcf030,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c79a73437ced646a68aee9a55514eefe,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b7f11f37a2bca640bf04e6328fcf030, type: 2}
   m_IsPrefabParent: 0
@@ -31473,7 +30949,7 @@ Prefab:
     - target: {fileID: 224000010721129508, guid: 106319850321bac47b3a971652563be4,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224000010721129508, guid: 106319850321bac47b3a971652563be4,
         type: 2}
@@ -31635,9 +31111,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 2101891117}
+  - 4: {fileID: 2101891117}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -31654,6 +31130,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.8130684, y: 1.6824892, z: -3.59375}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 895639958}
   - {fileID: 60977074}
@@ -31905,7 +31382,6 @@ Transform:
   - {fileID: 1412959974}
   m_Father: {fileID: 1077945214}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2105685816
 Prefab:
   m_ObjectHideFlags: 0
