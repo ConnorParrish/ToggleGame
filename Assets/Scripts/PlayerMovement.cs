@@ -80,15 +80,17 @@ public class PlayerMovement : MonoBehaviour {
 			//Debug.Log("You've made it, you beautiful bastard");
 			endConfetti.SetActive(true);
 
-			// foreach (Animator anims in anim){
-			// 	anims.SetTrigger("isFinished");
-			// }
+			foreach (Animator anims in anim){
+			 	anims.SetTrigger("isFinished");
+			}
 		}
 
 		// if the player reaches the end point of the level
 		if (transform.position.x >= endPoint.position.x){
 			isFinished = true;
-
+//			foreach (Animator anims in anim){
+//				anims.SetTrigger("isFinished");
+//			}
 			
             // SceneManager.LoadScene("MainMenu");
             // anim.Stop();
