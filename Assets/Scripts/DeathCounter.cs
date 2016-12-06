@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class DeathCounter : MonoBehaviour {
 
     public TextMesh TM;
+    public Text TextScript;
 	// Use this for initialization
 	void Start () {
 
@@ -22,7 +24,15 @@ public class DeathCounter : MonoBehaviour {
         {
             string num = SaveScript.TMD.noOfDeath.ToString();
             //Debug.Log("TextMesh: " + num);
+            if (num == "1")
+            {
+                TextScript.text = num + " Death";
+            } else
+            {
+                TextScript.text = num + " Deaths";
+            }
             TM.text = SaveScript.TMD.noOfDeath.ToString() + " Deaths";
+
         }
     }
 }
