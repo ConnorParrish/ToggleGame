@@ -81,8 +81,9 @@ public class PlayerMovement : MonoBehaviour {
 			endConfetti.SetActive(true);
 
 			foreach (Animator anims in anim){
-			 	anims.SetTrigger("isFinished");
+				anims.SetBool("isFinished", true);
 			}
+
 		}
 
 		// if the player reaches the end point of the level
