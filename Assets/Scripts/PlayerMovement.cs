@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float JumpStrength;
     public int bounceMag;
     private int CurrentLevelInt;
+    private string CurrentLevelName;
     
 	public bool isGrounded = false;
     public bool isReversed;
@@ -39,6 +40,7 @@ public class PlayerMovement : MonoBehaviour {
 		GetComponentsInChildren<Animator> (true, anim); // Grabs all animators (enabled or disabled)
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);	//Grabs all Sprite Renderers (enabled or disabled)
 		CurrentLevelInt = Application.loadedLevel; // Grabs the current level
+        CurrentLevelName = Application.loadedLevelName;
         rb2d = GetComponent<Rigidbody2D>(); // Caches the players Rigidbody2D
 		rb2d.velocity = new Vector2(Speed, 0); //Gives it the initial speed
 	}
@@ -179,7 +181,10 @@ public class PlayerMovement : MonoBehaviour {
 			//Debug.Log("We touched :O");
 			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
 			CoinText.text = System.Convert.ToString(currentCoin);
-            SaveScript.TMD.addCoin();            
+            if (currentCoin > (int)SaveScript.TMD.coinProgress(CurrentLevelName))
+            {
+                SaveScript.TMD.addCoin();
+            }
 			col.gameObject.SetActive(false);
     	}
 
