@@ -79,8 +79,9 @@ public class PlayerMovement : MonoBehaviour {
 
             if(diedFlag)
             {
-                SaveScript.TMD.died();
                 diedFlag = false;
+				SaveScript.TMD.died();
+
             }
             
 		} else if (isFinished) {
