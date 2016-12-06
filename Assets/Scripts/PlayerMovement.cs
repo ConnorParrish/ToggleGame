@@ -22,15 +22,17 @@ public class PlayerMovement : MonoBehaviour {
     public Transform endPoint;
     public Text CoinText;
     public GameObject endConfetti; // The levels end confetti
-    public AudioSource soundEffectSource; // Sound effects, babyyy
+    public GameObject JB;
     public Animator GameOver; // Animator used in GameOver
 
     // Creates the players Rigidbody2D for easy access
-	Rigidbody2D rb2d;
+    Rigidbody2D rb2d;
+    AudioSource JukeBox; // Sound effects, babyyy
+    Catalog SoundCatalog;
 
-	// Loads the animation call script
-	private List<Animator> anim = new List<Animator>();
-	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
+    // Loads the animation call script
+    private List<Animator> anim = new List<Animator>();
+    private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
 
 
@@ -39,8 +41,12 @@ public class PlayerMovement : MonoBehaviour {
 		GetComponentsInChildren<Animator> (true, anim); // Grabs all animators (enabled or disabled)
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);	//Grabs all Sprite Renderers (enabled or disabled)
 		CurrentLevelInt = Application.loadedLevel; // Grabs the current level
+        
         rb2d = GetComponent<Rigidbody2D>(); // Caches the players Rigidbody2D
 		rb2d.velocity = new Vector2(Speed, 0); //Gives it the initial speed
+
+        JukeBox = JB.GetComponent<AudioSource>();
+        SoundCatalog = JB.GetComponent<Catalog>();
 	}
 
     IEnumerator LongJump()
@@ -72,7 +78,8 @@ public class PlayerMovement : MonoBehaviour {
             
 		} else if (isFinished) {
 			if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.endLevel;
+				JukeBox.Play();
 			}
 			rb2d.velocity = rb2d.velocity*(0); // Stops player movement
 			//Debug.Log("You've made it, you beautiful bastard");
@@ -98,7 +105,8 @@ public class PlayerMovement : MonoBehaviour {
 			// This is the kill-floor
 			if (rb2d.position.y <= -10){
 				if (soundHooks){
-					soundEffectSource.Play();
+                    JukeBox.clip = SoundCatalog.death;
+					JukeBox.Play();
 				}
 
                 isDead = true;
@@ -116,7 +124,8 @@ public class PlayerMovement : MonoBehaviour {
 			// Jumping (if tapped on the left side of the screen)
 			if ((Input.GetButtonDown("Jump") || ((Input.touchCount == 1) && Input.touches[0].position.x < Screen.width/2)) && isGrounded){
 				if (soundHooks){
-					soundEffectSource.Play();
+                    JukeBox.clip = SoundCatalog.jump;
+					JukeBox.Play();
 				}
 				rb2d.AddForce(Vector2.up * JumpStrength);
 				isGrounded = false;
@@ -128,7 +137,8 @@ public class PlayerMovement : MonoBehaviour {
 			// Code used to swap animations mid frame (if tapped on the right side of the screen)
 			if (Input.GetKeyDown(KeyCode.Q) || ((Input.touchCount == 1) && (Input.GetTouch(0).phase == TouchPhase.Began) && Input.touches[0].position.x > Screen.width/2)){
 				if (soundHooks){
-					soundEffectSource.Play();
+                    JukeBox.clip = SoundCatalog.toggle;
+					JukeBox.Play();
 				}
 
 				isWhite = !isWhite;
@@ -143,7 +153,8 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.R) || ((Input.touchCount == 1) && Input.touches[0].position.y < Screen.height/2) && isDead)
         {
 			if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.death;
+				JukeBox.Play();
 			}
             //SaveScript.TMD.died();
             //Debug.Log("triggered");
@@ -155,7 +166,8 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.D))
         {
         	if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.death;
+				JukeBox.Play();
             }
 
             isDead = true;
@@ -165,12 +177,11 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape) || ((Input.touchCount == 1) && Input.touches[0].position.y > Screen.height/2 && (isDead || isFinished)))
         {
         	if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.pause;
+				JukeBox.Play();
 			}
             SceneManager.LoadScene("MainMenu");
         }
-
-
     }
 
     void OnTriggerEnter2D(Collider2D col){
@@ -204,7 +215,7 @@ public class PlayerMovement : MonoBehaviour {
         // If the player hits a white or black platform, it affects the isGrounded condition for the animator
         if ((blockCollision.gameObject.tag == "WhitePlatform" && isWhite) || (blockCollision.gameObject.tag == "BlackPlatform" && !isWhite)){
 			// if (soundHooks){
-			// 	soundEffectSource.Play();
+			// 	JukeBox.Play();
 			// }
 
 			isGrounded = true;
@@ -232,7 +243,8 @@ public class PlayerMovement : MonoBehaviour {
         if (blockCollision.gameObject.tag == "Reverse")
         {
         	if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.reversed;
+				JukeBox.Play();
 			}
 
             //Debug.Log("Reverse");
@@ -246,7 +258,8 @@ public class PlayerMovement : MonoBehaviour {
         if (blockCollision.gameObject.tag == "Trampoline")
         {
         	if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.trampoline;
+				JukeBox.Play();
 			}
             //Debug.Log("Jumped");
             rb2d.AddForce(Vector2.up * bounceMag);
@@ -261,7 +274,8 @@ public class PlayerMovement : MonoBehaviour {
         if (blockCollision.gameObject.tag == "LongJump")
         {
         	if (soundHooks){
-				soundEffectSource.Play();
+                JukeBox.clip = SoundCatalog.trampoline;
+				JukeBox.Play();
 			}
             //Debug.Log("Longed");
 
