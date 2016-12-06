@@ -1464,7 +1464,6 @@ Transform:
   - {fileID: 476176781}
   - {fileID: 2023203473}
   - {fileID: 480177873}
-  - {fileID: 833188287}
   - {fileID: 1301382305}
   - {fileID: 1654128204}
   - {fileID: 1358499918}
@@ -1475,6 +1474,7 @@ Transform:
   - {fileID: 625374186}
   - {fileID: 1454908897}
   - {fileID: 1746636688}
+  - {fileID: 833188287}
   - {fileID: 1050543886}
   - {fileID: 1139780128}
   - {fileID: 1713642218}
@@ -6210,7 +6210,7 @@ Transform:
   m_Children:
   - {fileID: 1356674934}
   m_Father: {fileID: 144990777}
-  m_RootOrder: 78
+  m_RootOrder: 88
 --- !u!1001 &847999924
 Prefab:
   m_ObjectHideFlags: 0
@@ -9745,7 +9745,7 @@ Transform:
   m_Children:
   - {fileID: 153836387}
   m_Father: {fileID: 144990777}
-  m_RootOrder: 79
+  m_RootOrder: 78
 --- !u!1001 &1302874372
 Prefab:
   m_ObjectHideFlags: 0
@@ -14710,7 +14710,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000011372757236, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 412.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000011372757236, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
       propertyPath: m_LocalPosition.y
