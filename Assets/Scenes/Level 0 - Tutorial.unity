@@ -680,8 +680,8 @@ Transform:
   - {fileID: 610421341}
   - {fileID: 269782458}
   - {fileID: 625374186}
-  - {fileID: 1726508387}
   - {fileID: 1139780128}
+  - {fileID: 1726508387}
   - {fileID: 1960752070}
   - {fileID: 1159760039}
   - {fileID: 833188287}
@@ -2603,6 +2603,53 @@ Transform:
   m_PrefabParentObject: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030,
     type: 2}
   m_PrefabInternal: {fileID: 94512010}
+--- !u!1001 &485701899
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 40.54274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.1239734
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.3298435
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011212943584, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000010863363088, guid: 933343133566449f2a9b34958903ca2a,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 30b0080d3bd8448a88e4c2324819cbe9, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 933343133566449f2a9b34958903ca2a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &489016114 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010472950726, guid: 1b7f11f37a2bca640bf04e6328fcf030,

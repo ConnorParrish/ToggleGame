@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   death: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
-  jump: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  jump: {fileID: 0}
   toggle: {fileID: 8300000, guid: f125fd492985b4a5ba44f9902ec99053, type: 3}
   reversed: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
   trampoline: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
