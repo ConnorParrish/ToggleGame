@@ -614,6 +614,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1001 &1496771639
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706778193926286, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: fe86ae29be51947c8a8b57b10ccdccd8, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1507297897
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450c5ebb8247f724da9b19b66f9b5fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Level 1-1
+  LevelToLoad: Level 0 - Tutorial
   IsExit: 0
   UnHighLightSprite: {fileID: 21300000, guid: 855140c08b30833449ab825a347dc6bd, type: 3}
   HighLightSprite: {fileID: 21300000, guid: 68b6555f26a260a47b0e3c5516ed4473, type: 3}
