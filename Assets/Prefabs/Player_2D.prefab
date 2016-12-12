@@ -288,15 +288,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f6cc2d0797f420c89b4745344e3de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
-  jump: {fileID: 0}
-  toggle: {fileID: 8300000, guid: f125fd492985b4a5ba44f9902ec99053, type: 3}
-  reversed: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  death: {fileID: 8300000, guid: 79134948efb3047b6ab59eb7c40a0efd, type: 3}
+  jump: {fileID: 8300000, guid: bdafe1d7b2ab342f68ca4bb73316d62b, type: 3}
+  toggle: {fileID: 8300000, guid: a0c715101f3c649d1979c653225136f6, type: 3}
+  reversed: {fileID: 8300000, guid: 7f2c0c3dae35e4356a64e8d0bf47541a, type: 3}
   trampoline: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
   endLevel: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
-  pause: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  pause: {fileID: 8300000, guid: a8619b9d012704836849850f024646e5, type: 3}
   restart: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
-  coinPickup: {fileID: 0}
+  coinPickup: {fileID: 8300000, guid: bdafe1d7b2ab342f68ca4bb73316d62b, type: 3}
 --- !u!114 &114000012532621776
 MonoBehaviour:
   m_ObjectHideFlags: 1
