@@ -10775,6 +10775,21 @@ Prefab:
       propertyPath: endConfetti
       value: 
       objectReference: {fileID: 1048010400}
+    - target: {fileID: 114000014256254238, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: startBlock
+      value: 
+      objectReference: {fileID: 55640525}
+    - target: {fileID: 114000014256254238, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: endPoint
+      value: 
+      objectReference: {fileID: 1931008953}
+    - target: {fileID: 114000014256254238, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: progBar
+      value: 
+      objectReference: {fileID: 654710118}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
   m_IsPrefabParent: 0
