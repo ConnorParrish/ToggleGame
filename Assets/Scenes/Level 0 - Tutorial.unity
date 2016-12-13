@@ -5714,6 +5714,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013350407488, guid: f47bcf29a84f7c349a6a9e270a0ea0c3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1657950227}
+    - target: {fileID: 114000010366141416, guid: f47bcf29a84f7c349a6a9e270a0ea0c3,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1657950227}
     - target: {fileID: 224000012777168996, guid: f47bcf29a84f7c349a6a9e270a0ea0c3,
         type: 2}
       propertyPath: m_AnchorMax.y
@@ -7629,9 +7639,25 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.5625
       objectReference: {fileID: 0}
+    - target: {fileID: 61000012862586054, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.1748317
+      objectReference: {fileID: 0}
+    - target: {fileID: 61000012862586054, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1.3803364
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b43850fd3b0e7741a69f3cebe560f55, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1657950227 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000012974883676, guid: 7b43850fd3b0e7741a69f3cebe560f55,
+    type: 2}
+  m_PrefabInternal: {fileID: 1657950226}
+  m_Script: {fileID: 11500000, guid: 2f0f05439aa89a740a53a0c6b7ffc431, type: 3}
 --- !u!1001 &1667856032
 Prefab:
   m_ObjectHideFlags: 0

@@ -134,32 +134,18 @@ public class PlayerMovement : MonoBehaviour {
 	            GameOver.SetTrigger("isDead");
 			}
 
-			// Jumping (if tapped on the left side of the screen)
-			if ((Input.GetButtonDown("Jump") || ((Input.touchCount == 1) && Input.touches[0].position.x < Screen.width/2)) && isGrounded){
-				if (soundHooks){
-                    JukeBox.clip = SoundCatalog.jump;
-					JukeBox.Play();
-				}
-				rb2d.AddForce(Vector2.up * JumpStrength);
-				isGrounded = false;
-				foreach (Animator animator in anim){
-					animator.SetBool ("isGrounded", isGrounded);
-				}
-			}
+            #if !UNITY_ANDROID && !UNITY_IPHONE && !UNITY_BLACKBERRY && !UNITY_WINRT
+                // Jumping (if tapped on the left side of the screen)
+            if (Input.GetButtonDown("Jump")){
+                Jump();
+            }
+			if (Input.GetKeyDown(KeyCode.Q)){
+				Toggle();
 
-			// Code used to swap animations mid frame (if tapped on the right side of the screen)
-			if (Input.GetKeyDown(KeyCode.Q) || ((Input.touchCount == 1) && (Input.GetTouch(0).phase == TouchPhase.Began) && Input.touches[0].position.x > Screen.width/2)){
-				if (soundHooks){
-                    JukeBox.clip = SoundCatalog.toggle;
-					JukeBox.Play();
-				}
-
-				isWhite = !isWhite;
-				 // Toggles the sprite renderers so the animations stay in sync
-				foreach (SpriteRenderer sprites in spriteRend){
-					sprites.enabled = !sprites.enabled;
-				}			
 			}
+            #endif
+
+            // Code used to swap animations mid frame (if tapped on the right side of the screen)
 		}
 
 		// Debug level reset (if tapped on the bottom half of the screen while dead)
@@ -189,6 +175,37 @@ public class PlayerMovement : MonoBehaviour {
         }
 
 
+    }
+    public void Jump(){
+        if (isGrounded){
+            if (soundHooks){
+                JukeBox.clip = SoundCatalog.jump;
+                JukeBox.Play();
+            }
+            rb2d.AddForce(Vector2.up * JumpStrength);
+            isGrounded = false;
+            foreach (Animator animator in anim){
+                animator.SetBool ("isGrounded", isGrounded);
+            }
+
+            
+        }
+        // NEED TO ADD FINAL IMAGE
+    }
+
+    public void Toggle(){
+        if (soundHooks){
+            JukeBox.clip = SoundCatalog.toggle;
+            JukeBox.Play();
+        }
+
+        isWhite = !isWhite;
+         // Toggles the sprite renderers so the animations stay in sync
+        foreach (SpriteRenderer sprites in spriteRend){
+            sprites.enabled = !sprites.enabled;
+        }
+
+        // NEED TO ADD ALTERNATING FINAL IMAGES
     }
 
     void OnTriggerEnter2D(Collider2D col){

@@ -9,7 +9,9 @@ public class SaveScript : MonoBehaviour
 {
     public static int currentLevel;
 
-    public static SaveScript Instance { get; private set; }
+    public static SaveScript Instance { get { return instance;} }
+
+    private static SaveScript instance = null;
 
     public static ToggleMetaData TMD;
     //private bool firstTimeFlag = true;
@@ -27,6 +29,18 @@ public class SaveScript : MonoBehaviour
     {
         Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
+        //Check if any other instance, 
+        if (instance != null && instance != this)
+        {
+            //Debug.Log("Another instance detected, " + SaveScript.TMD.noOfDeath + " destroyed");
+            
+            Destroy(this.gameObject);
+        } else {
+            instance = this;
+        }        
+        
+        DontDestroyOnLoad(gameObject);
+
         if (currentLevel != SceneManager.GetActiveScene().buildIndex)
         {
 
@@ -35,17 +49,7 @@ public class SaveScript : MonoBehaviour
         }
         currentLevel = SceneManager.GetActiveScene().buildIndex;
 
-        //Check if any other instance, 
-        if (Instance != null && Instance != this)
-        {
-            //Debug.Log("Another instance detected, " + SaveScript.TMD.noOfDeath + " destroyed");
-            
-            Destroy(this.gameObject);
-        }
 
-        Instance = this;
-
-        DontDestroyOnLoad(gameObject);
     }
 
 

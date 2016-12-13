@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class CameraController : MonoBehaviour {
-	public GameObject Player;
+	GameObject Player;
 	PlayerMovement playerMovement;
 
 	private Vector3 offset;
@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour {
 	void Start () {
 		offset = new Vector3(3, 0, -10);
 		reversedOffset = new Vector3(-3,0,-10);
+		Player = GameObject.Find("Player_2D");
 		playerMovement = Player.GetComponent<PlayerMovement>();
 
 		// Turns camera landscape mode for mobile
@@ -21,10 +22,10 @@ public class CameraController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!playerMovement.isReversed){
-			transform.position = playerMovement.transform.position + offset;		
+			transform.position = Player.transform.position + offset;		
 		} else if (playerMovement.isReversed){
 			Debug.Log("woah it worked");
-			transform.position = playerMovement.transform.position + reversedOffset;
+			transform.position = Player.transform.position + reversedOffset;
 		}
 	}
 }
