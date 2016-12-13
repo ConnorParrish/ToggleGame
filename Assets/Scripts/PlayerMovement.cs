@@ -9,8 +9,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float Speed;
 	public float JumpStrength;
     public int bounceMag;
-    private int CurrentLevelInt;
-    private string CurrentLevelName;
+    private int buildIndex;
     
 	public bool isGrounded = false;
     public bool isReversed;
@@ -20,12 +19,13 @@ public class PlayerMovement : MonoBehaviour {
     public bool isFinished = false;
     public bool diedFlag = true;
 
-    public Transform endPoint;
-    public Text CoinText;
-    public GameObject endConfetti; // The levels end confetti
-    public GameObject JB; // Sound effects, babyyy
-    public Animator GameOver; // Animator used in GameOver
+    Animator GameOver; // Animator used in GameOver
 
+    Transform endPoint;
+    Text CoinText;
+    GameObject endConfetti; // The levels end confetti
+    GameObject JB; // Sound effects, babyyy
+    
     // Creates the players Rigidbody2D for easy access
 	Rigidbody2D rb2d;
 
@@ -36,14 +36,21 @@ public class PlayerMovement : MonoBehaviour {
 	private List<Animator> anim = new List<Animator>();
 	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
-
+    SaveScript Saver;
 
     // Use this for initialization
     void Start () {        
 		GetComponentsInChildren<Animator> (true, anim); // Grabs all animators (enabled or disabled)
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);	//Grabs all Sprite Renderers (enabled or disabled)
-		CurrentLevelInt = Application.loadedLevel; // Grabs the current level
-        CurrentLevelName = Application.loadedLevelName;
+		
+        GameOver = GameObject.Find("GameOverUI").GetComponent<Animator>();
+
+        endPoint = GameObject.Find("EndPoint").transform;
+        CoinText = GameObject.Find("CoinText").GetComponent<Text>();
+        endConfetti = GameObject.Find("FX_confetti");
+        JB = GameObject.Find("Jukebox");
+
+        buildIndex = SceneManager.GetActiveScene().buildIndex; // Grabs the current level
         
         rb2d = GetComponent<Rigidbody2D>(); // Caches the players Rigidbody2D
 	   	rb2d.velocity = new Vector2(Speed, 0); //Gives it the initial speed
@@ -161,7 +168,7 @@ public class PlayerMovement : MonoBehaviour {
 			isDead = true;
             //SaveScript.TMD.died();
             //Debug.Log("triggered");
-            SceneManager.LoadScene(CurrentLevelInt);
+            SceneManager.LoadScene(buildIndex);
         }
 
 
@@ -188,13 +195,14 @@ public class PlayerMovement : MonoBehaviour {
     	// If the player collides with a coin!
     	if (col.gameObject.tag == "Coin"){
 			//Debug.Log("We touched :O");
-			int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
-			CoinText.text = System.Convert.ToString(currentCoin);
-            if (currentCoin > (int)SaveScript.TMD.coinProgress(CurrentLevelName))
-            {
-                SaveScript.TMD.addCoin();
-            }
 			col.gameObject.SetActive(false);
+
+            int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
+            CoinText.text = System.Convert.ToString(currentCoin);
+            if (currentCoin > (int)SaveScript.TMD.coinProgress(buildIndex))
+            {
+                SaveScript.TMD.addCoin(buildIndex);
+            }
     	}
 
     	// If the player runs into the wrong color

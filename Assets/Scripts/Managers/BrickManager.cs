@@ -11,7 +11,11 @@ public class BrickManager : MonoBehaviour {
 	public Color BlackColor;
 	public Sprite WhiteSprite;
 	public Sprite BlackSprite;
+	public GameObject FirstPlatform;
 	
+	void Awake() {
+		FirstPlatform = GameObject.FindGameObjectWithTag("WhitePlatform");
+	}
 	// Use this for initialization
 	void Start () {
 		//DONT NEED IT
@@ -21,6 +25,13 @@ public class BrickManager : MonoBehaviour {
 		BlackPlatforms = GameObject.FindGameObjectsWithTag("BlackPlatform");
 
 		foreach (GameObject platform in WhitePlatforms){
+			if (FirstPlatform == null){
+				FirstPlatform = platform;
+			} else {
+				if (platform.transform.position.x < FirstPlatform.transform.position.x){
+					FirstPlatform = platform;
+				}
+			}
 			//platform.GetComponent<SpriteRenderer>().sprite = WhiteSprite;
 			if (platform.GetComponent<BoxCollider2D>() != null){
 				platform.GetComponent<BoxCollider2D>().enabled = true;

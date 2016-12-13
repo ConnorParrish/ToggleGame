@@ -100,7 +100,7 @@ GameObject:
   - 222: {fileID: 222000013776337288}
   - 114: {fileID: 114000013858131994}
   m_Layer: 5
-  m_Name: Text
+  m_Name: CoinText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

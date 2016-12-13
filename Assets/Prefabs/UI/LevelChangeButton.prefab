@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014103500856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.48, y: -0.84, z: 0}
-  m_LocalScale: {x: 1.34, y: 1, z: 1}
+  m_LocalPosition: {x: -7, y: -0.25, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -55,7 +55,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.3407516, y: 1}
 --- !u!114 &114000012210490518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -67,10 +67,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 450c5ebb8247f724da9b19b66f9b5fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: 
-  IsExit: 1
-  UnHighLightSprite: {fileID: 0}
-  HighLightSprite: {fileID: 0}
+  LevelToLoad: LevelSelect4
+  IsExit: 0
+  UnHighLightSprite: {fileID: 21300000, guid: 82890d77850334e42854d8646ba0ef9f, type: 3}
+  HighLightSprite: {fileID: 21300000, guid: 0d500716f31878d47ab1092290de2f57, type: 3}
 --- !u!212 &212000011243073848
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -100,7 +100,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 82890d77850334e42854d8646ba0ef9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

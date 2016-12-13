@@ -10,27 +10,21 @@ public class ToggleMetaData
     //Public variables should automatically be serializable.
     //private string currentLevel;
     //public int coinsCollected;
-    public int coins0_0;
-    public int coins1_1;
-    public int coins1_2;
-    public int coins1_3;
-    public int coins1_4;
-    public int coins2_2;
-    public int coins2_3;
-    public int coins2_4;
-    public int coins3_1;
+    public int coins0;
+    public int coins1;
+    public int coins2;
+    public int coins3;
+    public int coins4;
+    public int coins5;
 
     public int noOfDeath;
 
-    public string prog0_0;
-    public string prog1_1;
-    public string prog1_2;
-    public string prog1_3;
-    public string prog1_4;
-    public string prog2_2;
-    public string prog2_3;
-    public string prog2_4;
-    public string prog3_1;
+    public float prog0;
+    public float prog1;
+    public float prog2;
+    public float prog3;
+    public float prog4;
+    public float prog5;
 
     bool deathFlag = false;
 
@@ -39,7 +33,7 @@ public class ToggleMetaData
     // Use this for initialization
     void Start()
     {
-        newGame();
+        //newGame();
     }
 
     // Update is called once per frame
@@ -50,27 +44,21 @@ public class ToggleMetaData
     public void newGame()
     {
         //Debug.Log("New Game Triggered");
-        coins0_0 = 0;
-        coins1_1 = 0;
-        coins1_2 = 0;
-        coins1_3 = 0;
-        coins1_4 = 0;
-        coins2_2 = 0;
-        coins2_3 = 0;
-        coins2_4 = 0;
-        coins3_1 = 0;
+        coins0 = 0;
+        coins1 = 0;
+        coins2 = 0;
+        coins3 = 0;
+        coins4 = 0;
+        coins5 = 0;
 
         noOfDeath = 0;
 
-        prog0_0 = "0";
-        prog1_1 = "0";
-        prog1_2 = "0";
-        prog1_3 = "0";
-        prog1_4 = "0";
-        prog2_2 = "0";
-        prog2_3 = "0";
-        prog2_4 = "0";
-        prog3_1 = "0";
+        prog0 = 0;
+        prog1 = 0;
+        prog2 = 0;
+        prog3 = 0;
+        prog4 = 0;
+        prog5 = 0;
         //Set all variables here to 0 or some equivalent
     }
 
@@ -87,45 +75,33 @@ public class ToggleMetaData
         //Debug.Log(noOfDeath);
     }
 
-    public void addCoin()
+    public void addCoin(int buildIndex)
     {
-        switch (SaveScript.currentLevel)
+        switch (buildIndex)
         {
-            case ("Level 0-0"):
+            case (1):
                 //Debug.Log("Working");
-                coins0_0++;
+                coins0++;
                 break;
-            case ("Level 1-1"):
+            case (2):
                 Debug.Log("Working 1-1");
-                coins1_1++;
+                coins1++;
                 break;
-            case ("Level 1-2"):
-                coins1_2++;
+            case (3):
+                coins2++;
                 Debug.Log("Working 1-2");
                 break;
-            case ("Level 1-3"):
+            case (4):
                 //Debug.Log("Working");
-                coins1_3++;
+                coins3++;
                 break;
-            case ("Level 1-4"):
+            case (5):
                 //Debug.Log("Working");
-                coins1_4++;
+                coins4++;
                 break;
-            case ("Level 2-2"):
+            case (6):
                 //Debug.Log("Working");
-                coins2_2++;
-                break;
-            case ("Level 2-3"):
-                //Debug.Log("Working");
-                coins2_3++;
-                break;
-            case ("Level 2-4"):
-                //Debug.Log("Working");
-                coins2_4++;
-                break;
-            case ("Level 3-1"):
-                //Debug.Log("Working");
-                coins3_1++;
+                coins5++;
                 break;
             default:
                 //Debug.Log("Default Case");
@@ -133,113 +109,84 @@ public class ToggleMetaData
         }
     }
 
-    public string progress(string displayLevel)
+    public float progress(int buildIndex)
     {
-        switch (displayLevel)
+        switch (buildIndex)
         {
-            case ("Level 0-0"):
-                return prog0_0;
-            case ("Level 1-1"):
-                return prog1_1;
+            // Cases are found in File -> Build Settings
+            case (1): // Scenes/Level 0
+                return prog0;
 
-            case ("Level 1-2"):
-                return prog1_2;
+            case (2): // Scenes/Level 1
+                return prog1;
+            case (3):
+                return prog2;
 
-            case ("Level 1-3"):
-                return prog1_3;
+            case (4):
+                return prog3;
 
-            case ("Level 1-4"):
-                return prog1_4;
+            case (5):
+                return prog4;
 
-            case ("Level 2-2"):
-                return prog2_2;
-
-            case ("Level 2-3"):
-                return prog2_3;
-
-            case ("Level 2-4"):
-                return prog2_4;
-
-            case ("Level 3-1"):
-                return prog3_1;
+            case (6):
+                return prog5;
 
             default:
-                return "Error, invalid level";
+                return -1;
         }
     }
 
 
-    public int coinProgress(string displayLevel)
+    public int coinProgress(int buildIndex)
     {
-        switch (displayLevel)
+        switch (buildIndex)
         {
-            case ("Level 0-0"):
-                return coins0_0;
-            case ("Level 1-1"):
-                return coins1_1;
+            case (1):
+                return coins0;
+            case (2):
+                return coins1;
 
-            case ("Level 1-2"):
-                return coins1_2;
+            case (3):
+                return coins2;
 
-            case ("Level 1-3"):
-                return coins1_3;
+            case (4):
+                return coins3;
 
-            case ("Level 1-4"):
-                return coins1_4;
+            case (5):
+                return coins4;
 
-            case ("Level 2-2"):
-                return coins2_2;
-
-            case ("Level 2-3"):
-                return coins2_3;
-
-            case ("Level 2-4"):
-                return coins2_4;
-
-            case ("Level 3-1"):
-                return coins3_1;
+            case (6):
+                return coins5;
 
             default:
                 return 100;
         }
     }
 
-    public void saveProgress(string bestProgress)
+    public void saveProgress(int buildIndex, float bestProgress)
     {
-        switch (SaveScript.currentLevel)
+        switch (buildIndex)
         {
-            case ("Level 0-0"):
-                prog0_0 = bestProgress;
+            case (1):
+                prog0 = bestProgress;
                 break;
-            case ("Level 1-1"):
-                prog1_1 = bestProgress;
+            case (2):
+                prog1 = bestProgress;
                 break; 
-            case ("Level 1-2"):
-                prog1_2 = bestProgress;
+            case (3):
+                prog2 = bestProgress;
                 break;
 
-            case ("Level 1-3"):
-                prog1_3 = bestProgress;
+            case (4):
+                prog3 = bestProgress;
                 break;
 
-            case ("Level 1-4"):
-                prog1_4 = bestProgress;
+            case (5):
+                prog4 = bestProgress;
                 break;
 
-            case ("Level 2-2"):
-                prog2_2 = bestProgress;
-                break;
-
-            case ("Level 2-3"):
-                prog2_3 = bestProgress;
-                break;
-
-            case ("Level 2-4"):
-                prog2_4 = bestProgress;
-                break;
-
-            case ("Level 3-1"):
-                prog3_1 = bestProgress;
+            case (6):
+                prog5 = bestProgress;
                 break;
 
             default:

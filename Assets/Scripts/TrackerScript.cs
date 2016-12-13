@@ -1,24 +1,35 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class TrackerScript : MonoBehaviour {
 
-	public Transform startBlock;
-	public Transform endPoint;
-	public Slider progBar;
     public float topDistance;
 
+	Transform startBlock;
+	public Transform endPoint;
+	public Vector3 endPos;
+	Slider progBar;
+	SaveScript Saver;
+	
 	// Use this for initialization
 	void Start () {
-		progBar.maxValue = endPoint.position.x - startBlock.position.x;
-        topDistance = float.Parse(SaveScript.TMD.progress(Application.loadedLevelName));
+		startBlock = GameObject.Find("PlatformManager").GetComponent<BrickManager>().FirstPlatform.transform;
+		endPoint = GameObject.Find("EndPoint").transform;
+		progBar = GameObject.Find("HUDCanvas").transform.GetChild(0).GetComponent<Slider>();
 
+		endPos = endPoint.position;
+
+
+		progBar.maxValue = 1;
+        topDistance = SaveScript.TMD.progress(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Top Distance on Level #" + (SceneManager.GetActiveScene().buildIndex - 1) + ": " + topDistance*10 + "%");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		progBar.value = transform.position.x;
+		progBar.value = transform.position.x/endPoint.position.x;
 
         //If the top distance has been passed by the value/max value then save progress
         //Debug.Log(100*(progBar.value / progBar.maxValue) + "<" + topDistance);
@@ -26,9 +37,8 @@ public class TrackerScript : MonoBehaviour {
         if(100*(progBar.value/progBar.maxValue) > topDistance)
         {
             float newTop = 100* (progBar.value / progBar.maxValue);
-            int newTopInt = (int) newTop;
             //Debug.Log("New Max =" + newTopInt);
-            SaveScript.TMD.saveProgress(newTopInt.ToString());
+            SaveScript.TMD.saveProgress(SceneManager.GetActiveScene().buildIndex, progBar.value);
         }
 	}
 }

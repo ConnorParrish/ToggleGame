@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
@@ -6,7 +7,7 @@ using System;
 
 public class SaveScript : MonoBehaviour
 {
-    public static string currentLevel = "MainMenu";
+    public static int currentLevel;
 
     public static SaveScript Instance { get; private set; }
 
@@ -19,20 +20,20 @@ public class SaveScript : MonoBehaviour
     {
         TMD = new ToggleMetaData();
         TMD = Load();
-        currentLevel = Application.loadedLevelName;
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Awake()
     {
         Environment.SetEnvironmentVariable("MONO_REFLECTION_SERIALIZER", "yes");
 
-        if (currentLevel != Application.loadedLevelName)
+        if (currentLevel != SceneManager.GetActiveScene().buildIndex)
         {
 
-            //Debug.Log("Level Change Detected: " + currentLevel + "!=" + Application.loadedLevelName);
+            //Debug.Log("Level Change Detected: " + currentLevel + "!=" + SceneManager.GetActiveScene().buildIndex);
             save();
         }
-        currentLevel = Application.loadedLevelName;
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
 
         //Check if any other instance, 
         if (Instance != null && Instance != this)
@@ -51,12 +52,12 @@ public class SaveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentLevel != Application.loadedLevelName)
+        if (currentLevel != SceneManager.GetActiveScene().buildIndex)
         {
             //Debug.Log("Level Change Detected");
             save();
         }
-        currentLevel = Application.loadedLevelName;
+        currentLevel = SceneManager.GetActiveScene().buildIndex;
 
     }
 

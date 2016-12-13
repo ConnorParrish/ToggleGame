@@ -6,9 +6,11 @@ public class DeathCounter : MonoBehaviour {
 
     public TextMesh TM;
     public Text TextScript;
-	// Use this for initialization
+	
+    SaveScript Saver;
+    // Use this for initialization
 	void Start () {
-
+        Saver = GameObject.Find("MetaObject").GetComponent<SaveScript>();
         if(SaveScript.TMD != null)
         {
             string num = SaveScript.TMD.noOfDeath.ToString();

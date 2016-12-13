@@ -5,14 +5,38 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Level0.unity
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
+  - enabled: 1
+    path: Assets/Scenes/Level 0 - Tutorial.unity
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Outer Road.unity
+  - enabled: 1
+    path: Assets/Scenes/Level 2 - Bramble.unity
+  - enabled: 1
+    path: Assets/Scenes/Level 3 - Dead End.unity
+  - enabled: 1
+    path: Assets/Scenes/Level 4 - Boneyard.unity
+  - enabled: 1
+    path: Assets/Scenes/Level 5 - Seabed.unity
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect1.unity
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect2.unity
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect3.unity
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect4.unity
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect5.unity
+  - enabled: 0
+    path: Assets/Scenes/unused levels/LevelSelect.unity
+  - enabled: 0
+    path: Assets/Scenes/Level template.unity
+  - enabled: 0
+    path: Assets/Scenes/Level0.unity
   - enabled: 0
     path: Assets/Scenes/Level1.unity
-  - enabled: 1
-    path: Assets/Scenes/unused levels/LevelSelect.unity
   - enabled: 0
     path: Assets/Scenes/Level 1-1.unity
   - enabled: 0
@@ -27,33 +51,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2-4.unity
   - enabled: 0
     path: Assets/Scenes/Level 3-1.unity
-  - enabled: 1
-    path: Assets/Scenes/Level template.unity
   - enabled: 0
     path: Assets/Scenes/unused levels/LevelSelect2.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/unused levels/LevelSelect3.unity
   - enabled: 0
     path: Assets/Scenes/Level 0-0.unity
-  - enabled: 1
-    path: Assets/Scenes/Level 0 - Tutorial.unity
-  - enabled: 1
-    path: Assets/Scenes/Level 1 - Outer Road.unity
-  - enabled: 1
-    path: Assets/Scenes/Level 2 - Bramble.unity
-  - enabled: 1
-    path: Assets/Scenes/Level 3 - Dead End.unity
-  - enabled: 1
-    path: Assets/Scenes/Level 4 - Boneyard.unity
-  - enabled: 1
-    path: Assets/Scenes/Level 5 - Seabed.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect2.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect1.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect4.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect3.unity
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect5.unity
