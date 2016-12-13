@@ -8,8 +8,7 @@ public class TrackerScript : MonoBehaviour {
     public float topDistance;
 
 	Transform startBlock;
-	public Transform endPoint;
-	public Vector3 endPos;
+	Transform endPoint;
 	Slider progBar;
 	SaveScript Saver;
 	
@@ -18,8 +17,6 @@ public class TrackerScript : MonoBehaviour {
 		startBlock = GameObject.Find("PlatformManager").GetComponent<BrickManager>().FirstPlatform.transform;
 		endPoint = GameObject.Find("EndPoint").transform;
 		progBar = GameObject.Find("HUDCanvas").transform.GetChild(0).GetComponent<Slider>();
-
-		endPos = endPoint.position;
 
 
 		progBar.maxValue = 1;
