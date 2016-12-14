@@ -58,6 +58,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012376677390}
   - 82: {fileID: 82000010910939498}
+  - 114: {fileID: 114000013484881736}
   m_Layer: 0
   m_Name: Jukebox
   m_TagString: Untagged
@@ -347,9 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90a1d578594563418ee65c74017e061, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startBlock: {fileID: 0}
-  endPoint: {fileID: 0}
-  progBar: {fileID: 0}
+  topDistance: 0
 --- !u!114 &114000012716253144
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -370,11 +369,27 @@ MonoBehaviour:
   isWhite: 1
   soundHooks: 0
   isFinished: 0
-  endPoint: {fileID: 0}
-  CoinText: {fileID: 0}
-  endConfetti: {fileID: 0}
-  soundEffectSource: {fileID: 82000010910939498}
-  GameOver: {fileID: 0}
+  diedFlag: 1
+--- !u!114 &114000013484881736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011535280060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f6cc2d0797f420c89b4745344e3de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  death: {fileID: 8300000, guid: 82bc19d47f9bd4566ad0037629f8300a, type: 3}
+  jump: {fileID: 8300000, guid: e8453c6d0b9bd4e6b815e358f8e7272b, type: 3}
+  toggle: {fileID: 8300000, guid: d5f43de590d9c4449b96e152ff5ff2e3, type: 3}
+  reversed: {fileID: 8300000, guid: 7f2c0c3dae35e4356a64e8d0bf47541a, type: 3}
+  trampoline: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  endLevel: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  pause: {fileID: 8300000, guid: a8619b9d012704836849850f024646e5, type: 3}
+  restart: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
+  coinPickup: {fileID: 8300000, guid: bdafe1d7b2ab342f68ca4bb73316d62b, type: 3}
 --- !u!198 &198000010505717640
 ParticleSystem:
   m_ObjectHideFlags: 1

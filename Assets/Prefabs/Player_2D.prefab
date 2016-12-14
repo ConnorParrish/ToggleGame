@@ -225,7 +225,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.77
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -344,9 +344,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00f6cc2d0797f420c89b4745344e3de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  death: {fileID: 8300000, guid: 79134948efb3047b6ab59eb7c40a0efd, type: 3}
-  jump: {fileID: 8300000, guid: bdafe1d7b2ab342f68ca4bb73316d62b, type: 3}
-  toggle: {fileID: 8300000, guid: a0c715101f3c649d1979c653225136f6, type: 3}
+  death: {fileID: 8300000, guid: 82bc19d47f9bd4566ad0037629f8300a, type: 3}
+  jump: {fileID: 8300000, guid: e8453c6d0b9bd4e6b815e358f8e7272b, type: 3}
+  toggle: {fileID: 8300000, guid: d5f43de590d9c4449b96e152ff5ff2e3, type: 3}
   reversed: {fileID: 8300000, guid: 7f2c0c3dae35e4356a64e8d0bf47541a, type: 3}
   trampoline: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
   endLevel: {fileID: 8300000, guid: d73d3ac1a086f3c4a854560dd9821671, type: 3}
