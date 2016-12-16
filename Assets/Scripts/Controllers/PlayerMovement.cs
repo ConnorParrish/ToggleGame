@@ -37,13 +37,15 @@ public class PlayerMovement : MonoBehaviour {
 	private List<SpriteRenderer> spriteRend = new List<SpriteRenderer>();
 
     SaveScript Saver;
+    HUDController HUD;
 
     // Use this for initialization
     void Start () {        
 		GetComponentsInChildren<Animator> (true, anim); // Grabs all animators (enabled or disabled)
 		GetComponentsInChildren<SpriteRenderer> (true, spriteRend);	//Grabs all Sprite Renderers (enabled or disabled)
-		
-        GameOver = GameObject.Find("GameOverUI").GetComponent<Animator>();
+    
+        HUD = GameObject.Find("HUDCanvas").GetComponent<HUDController>();		
+        GameOver = HUD.gameObject.transform.GetChild(2).gameObject.GetComponent<Animator>();
 
         endPoint = GameObject.Find("EndPoint").transform;
         CoinText = GameObject.Find("CoinText").GetComponent<Text>();
@@ -77,6 +79,8 @@ public class PlayerMovement : MonoBehaviour {
     	// If the player is dead, start the pop animation
 		if (isDead){
 			foreach (Animator anims in anim){
+                rb2d.velocity = rb2d.velocity*(0);
+                HUD.GameOver();
 				anims.SetTrigger("isDead");
 			}
 
@@ -104,19 +108,14 @@ public class PlayerMovement : MonoBehaviour {
 				anims.SetBool("isFinished", true);
 			}
 
-		}
+		} else {
 
-		// if the player reaches the end point of the level
-		if (transform.position.x >= endPoint.position.x){
-			isFinished = true;
-//			foreach (Animator anims in anim){
-//				anims.SetTrigger("isFinished");
-//			}
-			
-            // SceneManager.LoadScene("MainMenu");
-            // anim.Stop();
-        }
-		else {
+            // if the player reaches the end point of the level
+            if (transform.position.x >= endPoint.position.x){
+               isFinished = true;
+            }
+
+
 			// Keeps the velocity constant on each frame
 			rb2d.velocity = new Vector2(Speed, rb2d.velocity.y);
 
@@ -125,14 +124,8 @@ public class PlayerMovement : MonoBehaviour {
                 isDead = true;
 			}
 
-			// Called on Death (from kill floor or debug 'D' key)
-			if (isDead){
-	            //Debug.Log("Died");
-				rb2d.velocity = rb2d.velocity*(0);
-
-	            // This code added to trigger Gameover Anim.
-	            GameOver.SetTrigger("isDead");
-			}
+			
+			
 
             #if !UNITY_ANDROID && !UNITY_IPHONE && !UNITY_BLACKBERRY && !UNITY_WINRT
                 // Jumping (if tapped on the left side of the screen)
@@ -149,7 +142,7 @@ public class PlayerMovement : MonoBehaviour {
 		}
 
 		// Debug level reset (if tapped on the bottom half of the screen while dead)
-        if (Input.GetKeyDown(KeyCode.R) || ((Input.touchCount == 1) && Input.touches[0].position.y < Screen.height/2) && isDead)
+        if (Input.GetKeyDown(KeyCode.R))
         {
 			isDead = true;
             //SaveScript.TMD.died();
@@ -164,15 +157,15 @@ public class PlayerMovement : MonoBehaviour {
             isDead = true;
         }
 
-        // Returns to the main menu (if tapped on the top half of the screen while dead)
-        if (Input.GetKeyDown(KeyCode.Escape) || ((Input.touchCount == 1) && Input.touches[0].position.y > Screen.height/2 && (isDead || isFinished)))
-        {
-        	if (soundHooks){
-                JukeBox.clip = SoundCatalog.pause;
-				JukeBox.Play();
-			}
-            SceneManager.LoadScene("MainMenu");
-        }
+   //      // Returns to the main menu (if tapped on the top half of the screen while dead)
+   //      if (Input.GetKeyDown(KeyCode.Escape) || ((Input.touchCount == 1) && Input.touches[0].position.y > Screen.height/2 && (isDead || isFinished)))
+   //      {
+   //      	if (soundHooks){
+   //              JukeBox.clip = SoundCatalog.pause;
+			// 	JukeBox.Play();
+			// }
+   //          SceneManager.LoadScene("MainMenu");
+   //      }
 
 
     }
@@ -205,6 +198,7 @@ public class PlayerMovement : MonoBehaviour {
             sprites.enabled = !sprites.enabled;
         }
 
+
         // NEED TO ADD ALTERNATING FINAL IMAGES
     }
 
@@ -216,6 +210,8 @@ public class PlayerMovement : MonoBehaviour {
 
             int currentCoin = System.Convert.ToInt32(CoinText.text) + 1;
             CoinText.text = System.Convert.ToString(currentCoin);
+            Debug.Log(HUD.transform.gameObject.name);
+            HUD.transform.GetChild(1).GetChild(3).GetChild(0).GetComponent<Text>().text = System.Convert.ToString(currentCoin) + "/5";
             if (currentCoin > (int)SaveScript.TMD.coinProgress(buildIndex))
             {
                 SaveScript.TMD.addCoin(buildIndex);

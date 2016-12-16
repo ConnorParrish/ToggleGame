@@ -16,7 +16,7 @@ public class TrackerScript : MonoBehaviour {
 	void Start () {
 		startBlock = GameObject.Find("PlatformManager").GetComponent<BrickManager>().FirstPlatform.transform;
 		endPoint = GameObject.Find("EndPoint").transform;
-		progBar = GameObject.Find("HUDCanvas").transform.GetChild(0).GetComponent<Slider>();
+		progBar = GameObject.Find("HUDCanvas").transform.GetChild(3).GetComponent<Slider>();
 
 
 		progBar.maxValue = 1;

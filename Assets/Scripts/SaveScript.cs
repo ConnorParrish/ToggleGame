@@ -43,9 +43,9 @@ public class SaveScript : MonoBehaviour
 
         if (currentLevel != SceneManager.GetActiveScene().buildIndex)
         {
-
+            Debug.Log("peanuts");
             //Debug.Log("Level Change Detected: " + currentLevel + "!=" + SceneManager.GetActiveScene().buildIndex);
-            save();
+            //save();
         }
         currentLevel = SceneManager.GetActiveScene().buildIndex;
 
