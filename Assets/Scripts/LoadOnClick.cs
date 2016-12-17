@@ -7,7 +7,7 @@ public class LoadOnClick : MonoBehaviour {
 	public void LoadByIndex(int sceneIndex){
 		Debug.Log("Loading scene index: " + sceneIndex);	
 		SceneManager.LoadScene(sceneIndex);
-
+		Time.timeScale = 1;
 	}
 	public void LoadNextLevel(){
 		Debug.Log("Going to next level!");
