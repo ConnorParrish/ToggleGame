@@ -12,8 +12,13 @@ public class BrickManager : MonoBehaviour {
 	public Sprite WhiteSprite;
 	public Sprite BlackSprite;
 	public GameObject FirstPlatform;
-	
+    public GameObject whitePlayer;
+    public GameObject blackPlayer;
+
 	void Awake() {
+        whitePlayer = GameObject.Find("Player_2D").transform.GetChild(0).gameObject;
+        blackPlayer = GameObject.Find("Player_2D").transform.GetChild(1).gameObject;
+
 		FirstPlatform = GameObject.FindGameObjectWithTag("WhitePlatform");
 	}
 	// Use this for initialization
@@ -21,38 +26,19 @@ public class BrickManager : MonoBehaviour {
 		//DONT NEED IT
 		// Debug.Log("Finding objects tagged WhitePlatform...");
 
-		WhitePlatforms = GameObject.FindGameObjectsWithTag("WhitePlatform");
-		BlackPlatforms = GameObject.FindGameObjectsWithTag("BlackPlatform");
-
-		foreach (GameObject platform in WhitePlatforms){
-			if (FirstPlatform == null){
-				FirstPlatform = platform;
-			} else {
-				if (platform.transform.position.x < FirstPlatform.transform.position.x){
-					FirstPlatform = platform;
-				}
-			}
-			//platform.GetComponent<SpriteRenderer>().sprite = WhiteSprite;
-			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().enabled = true;
-			}
-		}
-
-		foreach (GameObject platform in BlackPlatforms){
-			//platform.GetComponent<SpriteRenderer>().sprite = BlackSprite;
-			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().isTrigger = true;
-				platform.GetComponent<BoxCollider2D>().enabled = true;
-			}
-		}
 	}
 
 	void swapState(GameObject[] platformSet){
-		foreach (GameObject platform in platformSet){
-			if (platform.GetComponent<BoxCollider2D>() != null){
-				platform.GetComponent<BoxCollider2D>().isTrigger = !platform.GetComponent<BoxCollider2D>().isTrigger;
-			}
-		}
+		if (whitePlayer.activeSelf)
+        {
+            whitePlayer.SetActive(false);
+            blackPlayer.SetActive(true);
+        }
+        else
+        {
+            whitePlayer.SetActive(true);
+            blackPlayer.SetActive(false);
+        }
 	}
 	
 	IEnumerator waitpls(){
@@ -63,7 +49,6 @@ public class BrickManager : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Q) || ((Input.touchCount == 1) && (Input.GetTouch(0).phase == TouchPhase.Began) && Input.touches[0].position.x > Screen.width/2)){
 			swapState(WhitePlatforms);
-			swapState(BlackPlatforms);
 			StartCoroutine(waitpls());
 		}
 	}
