@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System.Runtime.InteropServices;
 using System;
 
 public class SaveScript : MonoBehaviour
@@ -16,6 +17,11 @@ public class SaveScript : MonoBehaviour
     public static ToggleMetaData TMD;
     //private bool firstTimeFlag = true;
 
+    [DllImport("__Internal")]
+    private static extern void SyncFiles();
+
+    [DllImport("__Internal")]
+    private static extern void WindowAlert(string message);
 
     // Use this for initialization
     void Start()
@@ -94,12 +100,29 @@ public class SaveScript : MonoBehaviour
             //if(TMD )
             binaryFormatter.Serialize(fileStream, TMD);
             fileStream.Close();
+
+            if (Application.platform == RuntimePlatform.WebGLPlayer)
+            {
+                SyncFiles();
+            }
         }
         catch (Exception e)
         {
             Debug.Log("Failed to Save: " + e.Message);
         }
         //Debug.Log("Stopped Saving");
+    }
+
+    private static void PlatformSafeMessage(string message)
+    {
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            WindowAlert(message);
+        }
+        else
+        {
+            Debug.Log(message);
+        }
     }
 
     /// <summary>
